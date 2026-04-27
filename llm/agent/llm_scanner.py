@@ -1,6 +1,62 @@
 import json
 import requests
+import sqlite3
+from cryptography.fernet import Fernet
 
+# ==========================================
+# 密钥安全管理模块
+# ==========================================
+class KeyManager:
+    def __init__(self, db_path="config.db", key_file="master.key"):
+        self.db_path = db_path
+        self.key_file = key_file
+        self._init_master_key()
+        self._init_db()
+
+    def _init_master_key(self):
+        """初始化主密钥，如果不存在则生成新密钥"""
+        if not os.path.exists(self.key_file):
+            key = Fernet.generate_key()
+            with open(self.key_file, "wb") as f:
+                f.write(key)
+
+        with open(self.key_file, "rb") as f:
+            self.cipher_suite = Fernet(f.read())
+
+    def _init_db(self):
+        """初始化 SQLite 数据库表"""
+        with sqlite3.connect(self.db_path) as conn:
+            conn.execute("""
+                CREATE TABLE IF NOT EXISTS api_config (
+                    service_name TEXT PRIMARY KEY,
+                    encrypted_key BLOB
+                )
+            """)
+            conn.commit()
+
+    def save_key(self, service_name, raw_key):
+        """加密并保存 API Key"""
+        encrypted_key = self.cipher_suite.encrypt(raw_key.encode('utf-8'))
+        with sqlite3.connect(self.db_path) as conn:
+            conn.execute(
+                "INSERT OR REPLACE INTO api_config (service_name, encrypted_key) VALUES (?, ?)",
+                (service_name, encrypted_key)
+            )
+            conn.commit()
+        print(f"✅ {service_name} 密钥已加密并存入数据库。")
+
+    def load_key(self, service_name):
+        """从数据库读取并解密密钥"""
+        with sqlite3.connect(self.db_path) as conn:
+            cursor = conn.execute(
+                "SELECT encrypted_key FROM api_config WHERE service_name = ?",
+                (service_name,)
+            )
+            row = cursor.fetchone()
+            if row:
+                decrypted_key = self.cipher_suite.decrypt(row[0]).decode('utf-8')
+                return decrypted_key
+            return None
 
 class OSDSemanticScanner:
     def __init__(self, api_key):
@@ -109,8 +165,13 @@ class OSDSemanticScanner:
 if __name__ == "__main__":
     import os
 
+    km = KeyManager(db_path="secrets.db", key_file="master.key")
+
+    # RAW_API_KEY = "nvapi"
+    # km.save_key("nvidia_osd_api", RAW_API_KEY)
+
     # 替换为你自己的 KEY
-    API_KEY = "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"
+    API_KEY = km.load_key("nvidia_osd_api")
     scanner = OSDSemanticScanner(API_KEY)
 
     # 读取你项目里的 JSON 文件进行测试
