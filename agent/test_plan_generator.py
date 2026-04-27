@@ -12,6 +12,7 @@ class TestPlanGenerator:
     AVAILABLE_ACTIONS = {
         "navigate_osd": "Navigate OSD menu to the given path; optionally set a numeric value",
         "show_test_pattern": "Display a test pattern on screen (R / G / B / White / Black / Gray)",
+        "press_key": "Send physical OSD key action (上键/下键/左键/右键/中键, short/long)",
         "measure_ca410": "Trigger CA410 colorimeter measurement, returns xy chromaticity coordinates",
         "enable_hdr": "Enable or disable OS-level HDR mode",
         "wait_human": "Pause execution and display an instruction for the operator",
