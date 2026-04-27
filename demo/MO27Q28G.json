@@ -1,0 +1,1423 @@
+{
+    "Turn Off": {},
+    "Main Menu": {
+        "Exit": {},
+        "OLED Care": {
+            "Status": {
+                "Usage Time": {
+                    "(Value) hours": {},
+                    "Ps": "Look Only"
+                },
+                "Pixel Clean": {
+                    "(Status)": {},
+                    "Ps": "Look Only"
+                }
+            },
+            "Settings": {
+                "Pixel Clean": {
+                    "Start Cleaning": {},
+                    "Start Time Delay": {
+                        "0min.": {},
+                        "Default": "15min.",
+                        "15min.": {},
+                        "30min.": {},
+                        "45min.": {},
+                        "60min.": {},
+                        "75min.": {},
+                        "90min.": {},
+                        "105min.": {},
+                        "120min.": {}
+                    }
+                },
+                "Pixel Shift": {
+                    "ON": {},
+                    "Default": "ON",
+                    "OFF": {}
+                },
+                "APL Stabilize": {
+                    "Low": {},
+                    "Default": "Low",
+                    "Middle": {},
+                    "High": {}
+                },
+                "Sub-Logo Dim": {
+                    "ON": {},
+                    "Default": "ON",
+                    "OFF": {}
+                },
+                "Corner Dim": {
+                    "ON": {},
+                    "Default": "ON",
+                    "OFF": {}
+                },
+                "Brightness Control": {
+                    "ON": {},
+                    "Default": "ON",
+                    "OFF": {}
+                },
+                "Tone Control": {
+                    "ON": {},
+                    "Default": "ON",
+                    "OFF": {}
+                },
+                "Reset Settings": {
+                    "Yes": {},
+                    "Default": "No",
+                    "No": {}
+                }
+            }
+        },
+        "GameAssist": {
+            "GAME INFO": {
+                "Game Timer": {
+                    "OFF": {},
+                    "Default": "OFF",
+                    "Count Up": {},
+                    "Count Down": {}
+                },
+                "Gaming Counter": {
+                    "ON": {},
+                    "Default": "OFF",
+                    "OFF": {}
+                },
+                "Refresh Rate": {
+                    "ON": {},
+                    "Default": "OFF",
+                    "OFF": {}
+                },
+                "Info Location": {
+                    "Default": "H右, V上",
+                    "Horizontal 左、右": {},
+                    "Vertical 上、中、下": {},
+                    "Ps": "Look Only"
+                }
+            },
+            "Crosshair": {
+                "OFF": {},
+                "Default": "0 , 0",
+                "Style 1": {},
+                "Style 2": {},
+                "Style 3": {},
+                "Style 4": {},
+                "Offset": {},
+                "Offset Reset": {}
+            },
+            "Tactical Switch": {
+                "Resolution Switch": {
+                    "Display Preset": {
+                        "24\"(default)": {},
+                        "Default": "24\" 2560x1440 16:9 \n24\" 1920x1080 16:9(default)\n24\" 1280x960 4:3\n24\" 1024x768 4:3\n24\" 1280x1024 5:4\n\n27\" 2560x1440 16:9\n27\" 1920x1080 16:9(default)\n27\" 1280x960 4:3\n27\" 1024x768 4:3\n27\" 1280x1024 5:4",
+                        "27\"": {},
+                        "Ps": "Look Only"
+                    },
+                    "Display Position": {
+                        "Top": {},
+                        "Default": "Bottom",
+                        "Center": {},
+                        "Bottom": {}
+                    },
+                    "Confirmation Notice": {
+                        "ON": {},
+                        "Default": "ON",
+                        "OFF": {}
+                    }
+                },
+                "Key Binding": {
+                    "Resolution Switch": {},
+                    "Default": "Resolution\nSwitch",
+                    "Crosshair": {},
+                    "Game Timer": {},
+                    "Mute": {}
+                }
+            },
+            "Flash Dimming": {
+                "ON": {
+                    "Tactical Switch Link": {
+                        "ON": {},
+                        "Default": "OFF",
+                        "OFF": {}
+                    }
+                },
+                "OFF": {},
+                "Default": "OFF"
+            }
+        },
+        "Settings": {
+            "Gaming": {
+                "Ultra Clear": {
+                    "OFF": {},
+                    "Default": "OFF",
+                    "ON": {}
+                },
+                "Black Equalizer": {
+                    "Default": 10
+                },
+                "Super Resolution": {
+                    "Default": 0
+                },
+                "Low Input Lag": {
+                    "ON": {},
+                    "Default": "OFF",
+                    "OFF": {}
+                },
+                "Display Mode": {
+                    "Full": {},
+                    "Default": "Full",
+                    "Aspect": {},
+                    "1:1": {},
+                    "22\"W (16:10)": {},
+                    "23\"W (16:9)": {},
+                    "23.6\"W (16:9)": {},
+                    "24\"W (16:9)": {}
+                },
+                "VRR": {
+                    "Enable": {},
+                    "Default": "Enable",
+                    "Disable": {},
+                    "Anti-Flicker": {
+                        "OFF": {},
+                        "Default": "OFF",
+                        "Middle": {},
+                        "High": {}
+                    }
+                }
+            },
+            "Picture ( SDR 時)": {
+                "Standard": {
+                    "Brightness": {
+                        "Default": 85
+                    },
+                    "Contrast": {
+                        "Default": 50
+                    },
+                    "6 axis Color": {
+                        "R-Saturation": {},
+                        "R-Hue": {},
+                        "G-Saturation": {},
+                        "G-Hue": {},
+                        "B-Saturation": {},
+                        "B-Hue": {},
+                        "C-Saturation": {},
+                        "C-Hue": {},
+                        "M-Saturation": {},
+                        "M-Hue": {},
+                        "Y-Saturation": {},
+                        "Y-Hue": {}
+                    },
+                    "Color Vibrance": {
+                        "Default": 10
+                    },
+                    "Sharpness": {
+                        "Default": 5
+                    },
+                    "Gamma": {
+                        "OFF": {},
+                        "1.8": {},
+                        "2.0": {},
+                        "2.2": {},
+                        "2.4": {},
+                        "2.6": {},
+                        "Default": 2.2
+                    },
+                    "Color Temperature": {
+                        "Cool": {},
+                        "Natural": {},
+                        "Normal": {},
+                        "Warm": {},
+                        "User Define": {
+                            "R": {
+                                "0-100": {}
+                            },
+                            "G": {
+                                "0-100": {}
+                            },
+                            "B": {
+                                "0-100": {}
+                            }
+                        },
+                        "Default": "Normal"
+                    },
+                    "Color Space": {
+                        "Native": {},
+                        "Adobe": {},
+                        "Display P3": {}
+                    },
+                    "Reset Picture": {
+                        "Yes": {},
+                        "No": {}
+                    },
+                    "Black Equalizer": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Black Equalizer",
+                        "Default": 10
+                    },
+                    "Super Resolution": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Super Resolution",
+                        "Default": 0
+                    },
+                    "APL Stabilize": {
+                        "Low": {},
+                        "Middle": {},
+                        "High": {},
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "OLED Care -> APL Stabilize",
+                        "Default": "Low"
+                    }
+                },
+                "Default": "ECO",
+                "FPS": {
+                    "Brightness": {
+                        "Default": 80
+                    },
+                    "Contrast": {
+                        "Default": 55
+                    },
+                    "6 axis Color": {
+                        "R-Saturation": {},
+                        "R-Hue": {},
+                        "G-Saturation": {},
+                        "G-Hue": {},
+                        "B-Saturation": {},
+                        "B-Hue": {},
+                        "C-Saturation": {},
+                        "C-Hue": {},
+                        "M-Saturation": {},
+                        "M-Hue": {},
+                        "Y-Saturation": {},
+                        "Y-Hue": {}
+                    },
+                    "Color Vibrance": {
+                        "Default": 10
+                    },
+                    "Sharpness": {
+                        "Default": 7
+                    },
+                    "Gamma": {
+                        "OFF": {},
+                        "1.8": {},
+                        "2.0": {},
+                        "2.2": {},
+                        "2.4": {},
+                        "2.6": {},
+                        "Default": 2
+                    },
+                    "Color Temperature": {
+                        "Cool": {},
+                        "Natural": {},
+                        "Normal": {},
+                        "Warm": {},
+                        "User Define": {
+                            "R": {
+                                "0-100": {}
+                            },
+                            "G": {
+                                "0-100": {}
+                            },
+                            "B": {
+                                "0-100": {}
+                            }
+                        },
+                        "Default": "Natural"
+                    },
+                    "Color Space": {
+                        "Native": {},
+                        "Adobe": {},
+                        "Display P3": {}
+                    },
+                    "Reset Picture": {
+                        "Yes": {},
+                        "No": {}
+                    },
+                    "Black Equalizer": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Black Equalizer",
+                        "Default": 12
+                    },
+                    "Super Resolution": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Super Resolution",
+                        "Default": 0
+                    },
+                    "APL Stabilize": {
+                        "Low": {},
+                        "Middle": {},
+                        "High": {},
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "OLED Care -> APL Stabilize",
+                        "Default": "Middle"
+                    }
+                },
+                "MOBA": {
+                    "Brightness": {
+                        "Default": 75
+                    },
+                    "Contrast": {
+                        "Default": 55
+                    },
+                    "6 axis Color": {
+                        "R-Saturation": {},
+                        "R-Hue": {},
+                        "G-Saturation": {},
+                        "G-Hue": {},
+                        "B-Saturation": {},
+                        "B-Hue": {},
+                        "C-Saturation": {},
+                        "C-Hue": {},
+                        "M-Saturation": {},
+                        "M-Hue": {},
+                        "Y-Saturation": {},
+                        "Y-Hue": {}
+                    },
+                    "Color Vibrance": {
+                        "Default": 10
+                    },
+                    "Sharpness": {
+                        "Default": 6
+                    },
+                    "Gamma": {
+                        "OFF": {},
+                        "1.8": {},
+                        "2.0": {},
+                        "2.2": {},
+                        "2.4": {},
+                        "2.6": {},
+                        "Default": 1.8
+                    },
+                    "Color Temperature": {
+                        "Cool": {},
+                        "Natural": {},
+                        "Normal": {},
+                        "Warm": {},
+                        "User Define": {
+                            "R": {
+                                "0-100": {}
+                            },
+                            "G": {
+                                "0-100": {}
+                            },
+                            "B": {
+                                "0-100": {}
+                            }
+                        },
+                        "Default": "Cool"
+                    },
+                    "Color Space": {
+                        "Native": {},
+                        "Adobe": {},
+                        "Display P3": {}
+                    },
+                    "Reset Picture": {
+                        "Yes": {},
+                        "No": {}
+                    },
+                    "Black Equalizer": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Black Equalizer",
+                        "Default": 12
+                    },
+                    "Super Resolution": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Super Resolution",
+                        "Default": 0
+                    },
+                    "APL Stabilize": {
+                        "Low": {},
+                        "Middle": {},
+                        "High": {},
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "OLED Care -> APL Stabilize",
+                        "Default": "Middle"
+                    }
+                },
+                "RPG": {
+                    "Brightness": {
+                        "Default": 90
+                    },
+                    "Contrast": {
+                        "Default": 55
+                    },
+                    "6 axis Color": {
+                        "R-Saturation": {},
+                        "R-Hue": {},
+                        "G-Saturation": {},
+                        "G-Hue": {},
+                        "B-Saturation": {},
+                        "B-Hue": {},
+                        "C-Saturation": {},
+                        "C-Hue": {},
+                        "M-Saturation": {},
+                        "M-Hue": {},
+                        "Y-Saturation": {},
+                        "Y-Hue": {}
+                    },
+                    "Color Vibrance": {
+                        "Default": 10
+                    },
+                    "Sharpness": {
+                        "Default": 6
+                    },
+                    "Gamma": {
+                        "OFF": {},
+                        "1.8": {},
+                        "2.0": {},
+                        "2.2": {},
+                        "2.4": {},
+                        "2.6": {},
+                        "Default": 2
+                    },
+                    "Color Temperature": {
+                        "Cool": {},
+                        "Natural": {},
+                        "Normal": {},
+                        "Warm": {},
+                        "User Define": {
+                            "R": {
+                                "0-100": {}
+                            },
+                            "G": {
+                                "0-100": {}
+                            },
+                            "B": {
+                                "0-100": {}
+                            }
+                        },
+                        "Default": "Normal"
+                    },
+                    "Color Space": {
+                        "Native": {},
+                        "Adobe": {},
+                        "Display P3": {}
+                    },
+                    "Reset Picture": {
+                        "Yes": {},
+                        "No": {}
+                    },
+                    "Black Equalizer": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Black Equalizer",
+                        "Default": 11
+                    },
+                    "Super Resolution": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Super Resolution",
+                        "Default": 2
+                    },
+                    "APL Stabilize": {
+                        "Low": {},
+                        "Middle": {},
+                        "High": {},
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "OLED Care -> APL Stabilize",
+                        "Default": "Middle"
+                    }
+                },
+                "Racing": {
+                    "Brightness": {
+                        "Default": 90
+                    },
+                    "Contrast": {
+                        "Default": 56
+                    },
+                    "6 axis Color": {
+                        "R-Saturation": {},
+                        "R-Hue": {},
+                        "G-Saturation": {},
+                        "G-Hue": {},
+                        "B-Saturation": {},
+                        "B-Hue": {},
+                        "C-Saturation": {},
+                        "C-Hue": {},
+                        "M-Saturation": {},
+                        "M-Hue": {},
+                        "Y-Saturation": {},
+                        "Y-Hue": {}
+                    },
+                    "Color Vibrance": {
+                        "Default": 14
+                    },
+                    "Sharpness": {
+                        "Default": 5
+                    },
+                    "Gamma": {
+                        "OFF": {},
+                        "1.8": {},
+                        "2.0": {},
+                        "2.2": {},
+                        "2.4": {},
+                        "2.6": {},
+                        "Default": 2
+                    },
+                    "Color Temperature": {
+                        "Cool": {},
+                        "Natural": {},
+                        "Normal": {},
+                        "Warm": {},
+                        "User Define": {
+                            "R": {
+                                "0-100": {}
+                            },
+                            "G": {
+                                "0-100": {}
+                            },
+                            "B": {
+                                "0-100": {}
+                            }
+                        },
+                        "Default": "Normal"
+                    },
+                    "Color Space": {
+                        "Native": {},
+                        "Adobe": {},
+                        "Display P3": {}
+                    },
+                    "Reset Picture": {
+                        "Yes": {},
+                        "No": {}
+                    },
+                    "Black Equalizer": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Black Equalizer",
+                        "Default": 11
+                    },
+                    "Super Resolution": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Super Resolution",
+                        "Default": 0
+                    },
+                    "APL Stabilize": {
+                        "Low": {},
+                        "Middle": {},
+                        "High": {},
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "OLED Care -> APL Stabilize",
+                        "Default": "Middle"
+                    }
+                },
+                "Movie": {
+                    "Brightness": {
+                        "Default": 80
+                    },
+                    "Contrast": {
+                        "Default": 50
+                    },
+                    "6 axis Color": {
+                        "R-Saturation": {},
+                        "R-Hue": {},
+                        "G-Saturation": {},
+                        "G-Hue": {},
+                        "B-Saturation": {},
+                        "B-Hue": {},
+                        "C-Saturation": {},
+                        "C-Hue": {},
+                        "M-Saturation": {},
+                        "M-Hue": {},
+                        "Y-Saturation": {},
+                        "Y-Hue": {}
+                    },
+                    "Color Vibrance": {
+                        "Default": 10
+                    },
+                    "Sharpness": {
+                        "Default": 6
+                    },
+                    "Gamma": {
+                        "OFF": {},
+                        "1.8": {},
+                        "2.0": {},
+                        "2.2": {},
+                        "2.4": {},
+                        "2.6": {},
+                        "Default": 2.2
+                    },
+                    "Color Temperature": {
+                        "Cool": {},
+                        "Natural": {},
+                        "Normal": {},
+                        "Warm": {},
+                        "User Define": {
+                            "R": {
+                                "0-100": {}
+                            },
+                            "G": {
+                                "0-100": {}
+                            },
+                            "B": {
+                                "0-100": {}
+                            }
+                        },
+                        "Default": "Normal"
+                    },
+                    "Color Space": {
+                        "Native": {},
+                        "Adobe": {},
+                        "Display P3": {}
+                    },
+                    "Reset Picture": {
+                        "Yes": {},
+                        "No": {}
+                    },
+                    "Black Equalizer": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Black Equalizer",
+                        "Default": 10
+                    },
+                    "Super Resolution": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Super Resolution",
+                        "Default": 2
+                    },
+                    "APL Stabilize": {
+                        "Low": {},
+                        "Middle": {},
+                        "High": {},
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "OLED Care -> APL Stabilize",
+                        "Default": "Middle"
+                    }
+                },
+                "Reader": {
+                    "Brightness": {
+                        "Default": 50
+                    },
+                    "Contrast": {
+                        "Default": 50
+                    },
+                    "6 axis Color": {
+                        "R-Saturation": {},
+                        "R-Hue": {},
+                        "G-Saturation": {},
+                        "G-Hue": {},
+                        "B-Saturation": {},
+                        "B-Hue": {},
+                        "C-Saturation": {},
+                        "C-Hue": {},
+                        "M-Saturation": {},
+                        "M-Hue": {},
+                        "Y-Saturation": {},
+                        "Y-Hue": {}
+                    },
+                    "Color Vibrance": {
+                        "Default": 10
+                    },
+                    "Sharpness": {
+                        "Default": 5
+                    },
+                    "Gamma": {
+                        "OFF": {},
+                        "1.8": {},
+                        "2.0": {},
+                        "2.2": {},
+                        "2.4": {},
+                        "2.6": {},
+                        "Default": 2.2
+                    },
+                    "Color Temperature": {
+                        "Cool": {},
+                        "Natural": {},
+                        "Normal": {},
+                        "Warm": {},
+                        "User Define": {
+                            "R": {
+                                "0-100": {}
+                            },
+                            "G": {
+                                "0-100": {}
+                            },
+                            "B": {
+                                "0-100": {}
+                            }
+                        },
+                        "Default": "Warm"
+                    },
+                    "Color Space": {
+                        "Native": {},
+                        "Adobe": {},
+                        "Display P3": {}
+                    },
+                    "Reset Picture": {
+                        "Yes": {},
+                        "No": {}
+                    },
+                    "Black Equalizer": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Black Equalizer",
+                        "Default": 10
+                    },
+                    "Super Resolution": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Super Resolution",
+                        "Default": 0
+                    },
+                    "APL Stabilize": {
+                        "Low": {},
+                        "Middle": {},
+                        "High": {},
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "OLED Care -> APL Stabilize",
+                        "Default": "Middle"
+                    }
+                },
+                "sRGB": {
+                    "Brightness": {
+                        "Default": "100 nits"
+                    },
+                    "Contrast": {
+                        "Default": ""
+                    },
+                    "6 axis Color": {
+                        "R-Saturation": {},
+                        "R-Hue": {},
+                        "G-Saturation": {},
+                        "G-Hue": {},
+                        "B-Saturation": {},
+                        "B-Hue": {},
+                        "C-Saturation": {},
+                        "C-Hue": {},
+                        "M-Saturation": {},
+                        "M-Hue": {},
+                        "Y-Saturation": {},
+                        "Y-Hue": {}
+                    },
+                    "Color Vibrance": {
+                        "Default": ""
+                    },
+                    "Sharpness": {
+                        "Default": ""
+                    },
+                    "Gamma": {
+                        "OFF": {},
+                        "1.8": {},
+                        "2.0": {},
+                        "2.2": {},
+                        "2.4": {},
+                        "2.6": {},
+                        "Default": ""
+                    },
+                    "Color Temperature": {
+                        "Cool": {},
+                        "Natural": {},
+                        "Normal": {},
+                        "Warm": {},
+                        "User Define": {
+                            "R": {
+                                "0-100": {}
+                            },
+                            "G": {
+                                "0-100": {}
+                            },
+                            "B": {
+                                "0-100": {}
+                            }
+                        },
+                        "Default": ""
+                    },
+                    "Color Space": {
+                        "Native": {},
+                        "Adobe": {},
+                        "Display P3": {}
+                    },
+                    "Reset Picture": {
+                        "Yes": {},
+                        "No": {}
+                    },
+                    "Black Equalizer": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Black Equalizer",
+                        "Default": ""
+                    },
+                    "Super Resolution": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Super Resolution",
+                        "Default": "Current Status"
+                    },
+                    "APL Stabilize": {
+                        "Low": {},
+                        "Middle": {},
+                        "High": {},
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "OLED Care -> APL Stabilize",
+                        "Default": "Low"
+                    }
+                },
+                "Custom": {
+                    "Brightness": {},
+                    "Contrast": {},
+                    "6 axis Color": {
+                        "R-Saturation": {},
+                        "R-Hue": {},
+                        "G-Saturation": {},
+                        "G-Hue": {},
+                        "B-Saturation": {},
+                        "B-Hue": {},
+                        "C-Saturation": {},
+                        "C-Hue": {},
+                        "M-Saturation": {},
+                        "M-Hue": {},
+                        "Y-Saturation": {},
+                        "Y-Hue": {}
+                    },
+                    "Color Vibrance": {},
+                    "Sharpness": {},
+                    "Gamma": {
+                        "OFF": {},
+                        "1.8": {},
+                        "2.0": {},
+                        "2.2": {},
+                        "2.4": {},
+                        "2.6": {}
+                    },
+                    "Color Temperature": {
+                        "Cool": {},
+                        "Natural": {},
+                        "Normal": {},
+                        "Warm": {},
+                        "User Define": {
+                            "R": {
+                                "0-100": {}
+                            },
+                            "G": {
+                                "0-100": {}
+                            },
+                            "B": {
+                                "0-100": {}
+                            }
+                        }
+                    },
+                    "Color Space": {
+                        "Native": {},
+                        "Adobe": {},
+                        "Display P3": {}
+                    },
+                    "Reset Picture": {
+                        "Yes": {},
+                        "No": {}
+                    }
+                },
+                "ECO": {
+                    "Brightness": {
+                        "Default": 70
+                    },
+                    "Contrast": {
+                        "Default": 50
+                    },
+                    "6 axis Color": {
+                        "R-Saturation": {},
+                        "R-Hue": {},
+                        "G-Saturation": {},
+                        "G-Hue": {},
+                        "B-Saturation": {},
+                        "B-Hue": {},
+                        "C-Saturation": {},
+                        "C-Hue": {},
+                        "M-Saturation": {},
+                        "M-Hue": {},
+                        "Y-Saturation": {},
+                        "Y-Hue": {}
+                    },
+                    "Color Vibrance": {
+                        "Default": 10
+                    },
+                    "Sharpness": {
+                        "Default": 5
+                    },
+                    "Gamma": {
+                        "OFF": {},
+                        "1.8": {},
+                        "2.0": {},
+                        "2.2": {},
+                        "2.4": {},
+                        "2.6": {},
+                        "Default": 2.2
+                    },
+                    "Color Temperature": {
+                        "Cool": {},
+                        "Natural": {},
+                        "Normal": {},
+                        "Warm": {},
+                        "User Define": {
+                            "R": {
+                                "0-100": {}
+                            },
+                            "G": {
+                                "0-100": {}
+                            },
+                            "B": {
+                                "0-100": {}
+                            }
+                        },
+                        "Default": "Normal"
+                    },
+                    "Color Space": {
+                        "Native": {},
+                        "Adobe": {},
+                        "Display P3": {}
+                    },
+                    "Reset Picture": {
+                        "Yes": {},
+                        "Default": "No",
+                        "No": {}
+                    },
+                    "Black Equalizer": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Black Equalizer",
+                        "Default": 10
+                    },
+                    "Super Resolution": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Super Resolution",
+                        "Default": 0
+                    },
+                    "APL Stabilize": {
+                        "Low": {},
+                        "Middle": {},
+                        "High": {},
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "OLED Care -> APL Stabilize",
+                        "Default": "Low"
+                    }
+                }
+            },
+            "Picture (HDR)": {
+                "HDR": {
+                    "Brightness": {
+                        "Default": ""
+                    },
+                    "Contrast": {
+                        "Default": ""
+                    },
+                    "Light Enhance": {
+                        "Default": ""
+                    },
+                    "HyperNits": {},
+                    "Color Enhance": {
+                        "Default": ""
+                    },
+                    "Dark Enhance": {
+                        "Default": ""
+                    },
+                    "Reset Picture": {
+                        "Yes": {},
+                        "No": {}
+                    },
+                    "APL Stabilize": {
+                        "Low": {},
+                        "Middle": {},
+                        "High": {},
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "OLED Care -> APL Stabilize",
+                        "Default": "Middle"
+                    }
+                },
+                "Default": "HDR",
+                "HDR Game": {
+                    "Brightness": {
+                        "Default": 100
+                    },
+                    "Contrast": {
+                        "Default": 52
+                    },
+                    "Light Enhance": {
+                        "Default": 0
+                    },
+                    "HyperNits": {},
+                    "Color Enhance": {
+                        "Default": 0
+                    },
+                    "Dark Enhance": {
+                        "Default": "On"
+                    },
+                    "Reset Picture": {
+                        "Yes": {},
+                        "No": {}
+                    },
+                    "APL Stabilize": {
+                        "Low": {},
+                        "Middle": {},
+                        "High": {},
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "OLED Care -> APL Stabilize",
+                        "Default": "High"
+                    }
+                },
+                "HDR Movie": {
+                    "Brightness": {
+                        "Default": 100
+                    },
+                    "Contrast": {
+                        "Default": 50
+                    },
+                    "Light Enhance": {
+                        "Default": 0
+                    },
+                    "HyperNits": {},
+                    "Color Enhance": {
+                        "Default": 1
+                    },
+                    "Dark Enhance": {
+                        "Default": "On"
+                    },
+                    "Reset Picture": {
+                        "Yes": {},
+                        "No": {}
+                    },
+                    "APL Stabilize": {
+                        "Low": {},
+                        "Middle": {},
+                        "High": {},
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "OLED Care -> APL Stabilize",
+                        "Default": "Middle"
+                    }
+                },
+                "HDR Vivid": {
+                    "Brightness": {
+                        "Default": 100
+                    },
+                    "Contrast": {
+                        "Default": 52
+                    },
+                    "Light Enhance": {
+                        "Default": 1
+                    },
+                    "HyperNits": {},
+                    "Color Enhance": {
+                        "Default": 1
+                    },
+                    "Dark Enhance": {
+                        "Default": "OFF"
+                    },
+                    "Reset Picture": {
+                        "Yes": {},
+                        "No": {}
+                    },
+                    "APL Stabilize": {
+                        "Low": {},
+                        "Middle": {},
+                        "High": {},
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "OLED Care -> APL Stabilize",
+                        "Default": "High"
+                    }
+                },
+                "HDR Peak 1500": {
+                    "Brightness": {},
+                    "Contrast": {},
+                    "Light Enhance": {},
+                    "HyperNits": {
+                        "Default": "High"
+                    },
+                    "Color Enhance": {},
+                    "Dark Enhance": {},
+                    "Reset Picture": {
+                        "Yes": {},
+                        "Default": "No",
+                        "No": {}
+                    }
+                },
+                "Ps": "HDR"
+            },
+            "Display": {
+                "Input": {
+                    "HDMI 1": {},
+                    "Default": "HDMI 1",
+                    "HDMI 2": {},
+                    "DP": {},
+                    "Type-C": {}
+                },
+                "KVM": {
+                    "KVM Switch": {},
+                    "KVM Wizard": {
+                        "USB-B": {
+                            "HDMI1": {},
+                            "HDMI2": {},
+                            "DP": {},
+                            "Type-C": {}
+                        },
+                        "Type-C": {
+                            "HDMI1": {},
+                            "HDMI2": {},
+                            "DP": {},
+                            "Type-C": {}
+                        }
+                    },
+                    "KVM Reset": {}
+                },
+                "RGB Range": {
+                    "Auto detect": {},
+                    "Default": "Auto detect",
+                    "RGB (0 ~ 255)": {},
+                    "RGB (16 ~ 235)": {}
+                },
+                "Apply Picture Mode": {
+                    "All Input": {},
+                    "Default": "All Input",
+                    "Current Input": {}
+                }
+            },
+            "PIP/PBP": {
+                "OFF": {},
+                "Default": "OFF",
+                "PIP": {
+                    "Source": {
+                        "HDMI 1": {},
+                        "Default": "依據Main Source",
+                        "HDMI 2": {},
+                        "DP": {},
+                        "Type-C": {}
+                    },
+                    "PIP Size": {
+                        "Small": {},
+                        "Default": "Large",
+                        "Medium": {},
+                        "Large": {}
+                    },
+                    "Location": {
+                        "Left Top": {},
+                        "Default": "Left Top",
+                        "Right Top": {},
+                        "Left Botton": {},
+                        "Right Botton": {}
+                    },
+                    "Display Switch": {},
+                    "Audio Switch": {
+                        "Main": {},
+                        "Default": "Main",
+                        "Sub": {}
+                    }
+                },
+                "PBP": {
+                    "Source": {
+                        "HDMI 1": {},
+                        "Default": "依據Main Source",
+                        "HDMI 2": {},
+                        "DP": {},
+                        "Type-C": {}
+                    },
+                    "PBP Mode": {
+                        "Full": {},
+                        "Default": "Aspect",
+                        "Aspect": {}
+                    },
+                    "PBP Size": {
+                        "1:1": {},
+                        "Default": "1:1",
+                        "Mobile Right": {}
+                    },
+                    "Display Switch": {},
+                    "Audio Switch": {
+                        "Left": {},
+                        "Default": "Left",
+                        "Right": {}
+                    }
+                }
+            },
+            "System": {
+                "Audio": {
+                    "Volume": {
+                        "Default": 30
+                    },
+                    "Mute": {
+                        "ON": {},
+                        "Default": "OFF",
+                        "OFF": {}
+                    },
+                    "Audio Mode": {
+                        "Standard": {},
+                        "Default": "Standard",
+                        "Gaming": {},
+                        "FPS": {},
+                        "Movie": {}
+                    }
+                },
+                "OSD Settings": {
+                    "Display Time": {
+                        "5 Sec.": {},
+                        "Default": "15 Sec.",
+                        "10 Sec.": {},
+                        "15 Sec.": {},
+                        "20 Sec.": {},
+                        "25 Sec.": {},
+                        "30 Sec.": {}
+                    },
+                    "OSD Transparency": {
+                        "0.1": {},
+                        "Default": 0.2,
+                        "0.2": {},
+                        "0.4": {},
+                        "0.6": {},
+                        "0.8": {}
+                    },
+                    "OSD Lock": {
+                        "ON": {},
+                        "OFF": {}
+                    }
+                },
+                "Quick Switch": {
+                    "Up": {
+                        "Ultra Clear": {},
+                        "Default": "Black Equalizer",
+                        "Black Equalizer": {},
+                        "Crosshair": {},
+                        "Volume": {},
+                        "Audio Mode": {},
+                        "Input": {},
+                        "Contrast": {},
+                        "Brightness": {},
+                        "Picture Mode": {}
+                    },
+                    "Down": {
+                        "Ultra Clear": {},
+                        "Default": "Picture Mode",
+                        "Black Equalizer": {},
+                        "Crosshair": {},
+                        "Volume": {},
+                        "Audio Mode": {},
+                        "Input": {},
+                        "Contrast": {},
+                        "Brightness": {},
+                        "Picture Mode": {}
+                    },
+                    "Right": {
+                        "Ultra Clear": {},
+                        "Default": "Input",
+                        "Black Equalizer": {},
+                        "Crosshair": {},
+                        "Volume": {},
+                        "Audio Mode": {},
+                        "Input": {},
+                        "Contrast": {},
+                        "Brightness": {},
+                        "Picture Mode": {}
+                    },
+                    "Left": {
+                        "Ultra Clear": {},
+                        "Default": "Volume",
+                        "Black Equalizer": {},
+                        "Crosshair": {},
+                        "Volume": {},
+                        "Audio Mode": {},
+                        "Input": {},
+                        "Contrast": {},
+                        "Brightness": {},
+                        "Picture Mode": {}
+                    }
+                },
+                "Other Settings": {
+                    "Resolution Notice": {
+                        "ON": {},
+                        "Default": "OFF",
+                        "OFF": {}
+                    },
+                    "Input Auto Switch": {
+                        "ON": {},
+                        "Default": "ON",
+                        "OFF": {}
+                    },
+                    "Auto Power OFF": {
+                        "Every": {
+                            "OFF": {},
+                            "10m": {},
+                            "20m": {},
+                            "30m": {},
+                            "Ps": "Look Only"
+                        },
+                        "Once": {
+                            "OFF": {},
+                            "10m": {},
+                            "20m": {},
+                            "30m": {},
+                            "Ps": "Look Only"
+                        }
+                    },
+                    "LED Indicator": {
+                        "Always ON": {},
+                        "Default": "Always ON",
+                        "Always OFF": {},
+                        "Standby ON": {}
+                    },
+                    "Type-C Compatibility": {
+                        "ON": {},
+                        "Default": "OFF",
+                        "OFF": {}
+                    },
+                    "HDMI Version": {
+                        "2.1": {},
+                        "Default": 2.1,
+                        "2.0": {}
+                    },
+                    "HDMI-CEC": {
+                        "ON": {},
+                        "Default": "OFF",
+                        "OFF": {}
+                    },
+                    "USB(A/C) Charge": {
+                        "Auto": {},
+                        "Default": "Auto",
+                        "Disable": {}
+                    },
+                    "Smart PD": {
+                        "ON": {},
+                        "Default": "OFF",
+                        "OFF": {}
+                    },
+                    "USB 3.2 Support": {
+                        "ON": {},
+                        "Default": "OFF",
+                        "OFF": {}
+                    },
+                    "DSC": {
+                        "Auto": {},
+                        "Default": "Auto",
+                        "OFF": {}
+                    }
+                }
+            },
+            "Langauge": {
+                "English": {},
+                "Default": "English",
+                "繁中": {},
+                "简中": {},
+                "Deutsch": {},
+                "Русский": {},
+                "Français": {},
+                "日本語": {},
+                "한국어": {},
+                "Español": {},
+                "Português": {},
+                "العربية": {},
+                "українська": {}
+            },
+            "Reset all": {}
+        },
+        "Power Off": {}
+    },
+    "Volume": {
+        "Default": 30
+    },
+    "Input": {
+        "HDMI 1": {},
+        "Default": "HDMI 1",
+        "HDMI 2": {},
+        "DP": {},
+        "Type-C": {}
+    },
+    "Black Equalizer": {},
+    "Picture Mode": {
+        "Standard": {},
+        "Default": "ECO",
+        "FPS": {},
+        "MOBA": {},
+        "RPG": {},
+        "Racing": {},
+        "Movie": {},
+        "Reader": {},
+        "sRGB": {},
+        "Custom": {},
+        "ECO": {},
+        "HDR": {},
+        "HDR_Game": {},
+        "HDR_Movie": {},
+        "HDR_Vivid": {}
+    }
+}

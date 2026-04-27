@@ -1,0 +1,1530 @@
+[
+  {
+    "name": "Power ON/OFF",
+    "operation": [
+      "Press center button (Hold 2s)"
+    ]
+  },
+  {
+    "name": "Elite Menu(Brightness)",
+    "operation": [
+      "Center button\nUp button"
+    ],
+    "Default": "預設值請參考Picture mode頁次",
+    "Range": "0-100"
+  },
+  {
+    "name": "Elite Menu(Picture Mode)",
+    "children": [
+      {
+        "name": "Standard",
+        "Default": "ECO"
+      },
+      {
+        "name": "FPS",
+        "Default": "ECO"
+      },
+      {
+        "name": "MOBA",
+        "Default": "ECO"
+      },
+      {
+        "name": "RPG",
+        "Default": "ECO"
+      },
+      {
+        "name": "Racing",
+        "Default": "ECO"
+      },
+      {
+        "name": "Movie",
+        "Default": "ECO"
+      },
+      {
+        "name": "Reader",
+        "Default": "ECO"
+      },
+      {
+        "name": "sRGB",
+        "Default": "ECO"
+      },
+      {
+        "name": "Adobe RGB",
+        "Default": "ECO"
+      },
+      {
+        "name": "DCI-P3",
+        "Default": "ECO"
+      },
+      {
+        "name": "Custom",
+        "Default": "ECO"
+      },
+      {
+        "name": "ECO",
+        "Default": "ECO"
+      }
+    ],
+    "operation": [
+      "Left button"
+    ]
+  },
+  {
+    "name": "Elite Menu(Input)",
+    "children": [
+      {
+        "name": "HDMI 1",
+        "Default": "HDMI 1"
+      },
+      {
+        "name": "HDMI 2",
+        "Default": "HDMI 1"
+      },
+      {
+        "name": "DP",
+        "Default": "HDMI 1"
+      },
+      {
+        "name": "Type-C",
+        "Default": "HDMI 1"
+      }
+    ],
+    "operation": [
+      "Right button"
+    ]
+  },
+  {
+    "name": "Main Menu(Setting)",
+    "children": [
+      {
+        "name": "Settings(Main Menu)",
+        "children": [
+          {
+            "name": "Gaming",
+            "children": [
+              {
+                "name": "Ultra Clear",
+                "children": [
+                  {
+                    "name": "ON",
+                    "Default": "OFF"
+                  },
+                  {
+                    "name": "OFF",
+                    "Default": "OFF"
+                  }
+                ]
+              },
+              {
+                "name": "AI Black Equalizer",
+                "Default": "0",
+                "Range": "0-15"
+              },
+              {
+                "name": "AI Spotlight",
+                "children": [
+                  {
+                    "name": "ON",
+                    "Default": "OFF"
+                  },
+                  {
+                    "name": "OFF",
+                    "Default": "OFF"
+                  }
+                ]
+              },
+              {
+                "name": "Super Resolution",
+                "Default": "0",
+                "Range": "0-4"
+              },
+              {
+                "name": "Display Mode",
+                "children": [
+                  {
+                    "name": "Full",
+                    "Default": "Full"
+                  },
+                  {
+                    "name": "Aspect",
+                    "Default": "Full"
+                  },
+                  {
+                    "name": "1:1",
+                    "Default": "Full"
+                  },
+                  {
+                    "name": "22\"W (16:10)",
+                    "Default": "Full"
+                  },
+                  {
+                    "name": "23\"W (16:9)",
+                    "Default": "Full"
+                  },
+                  {
+                    "name": "23.6\"W (16:9)",
+                    "Default": "Full"
+                  },
+                  {
+                    "name": "24\"W (16:9)",
+                    "Default": "Full"
+                  }
+                ]
+              },
+              {
+                "name": "VRR",
+                "children": [
+                  {
+                    "name": "Enable",
+                    "Default": "Enable"
+                  },
+                  {
+                    "name": "Disable",
+                    "Default": "Enable"
+                  },
+                  {
+                    "name": "Anti-Flicker",
+                    "children": [
+                      {
+                        "name": "OFF",
+                        "Default": "OFF"
+                      },
+                      {
+                        "name": "Middle",
+                        "Default": "OFF"
+                      },
+                      {
+                        "name": "High",
+                        "Default": "OFF"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Picture ( SDR 時)",
+            "children": [
+              {
+                "name": "Preset Mode",
+                "children": [
+                  {
+                    "name": "Standard",
+                    "Default": "ECO"
+                  },
+                  {
+                    "name": "FPS",
+                    "Default": "ECO"
+                  },
+                  {
+                    "name": "MOBA",
+                    "Default": "ECO"
+                  },
+                  {
+                    "name": "RPG",
+                    "Default": "ECO"
+                  },
+                  {
+                    "name": "Racing",
+                    "Default": "ECO"
+                  },
+                  {
+                    "name": "Movie",
+                    "Default": "ECO"
+                  },
+                  {
+                    "name": "Reader",
+                    "Default": "ECO"
+                  },
+                  {
+                    "name": "sRGB",
+                    "Default": "ECO"
+                  },
+                  {
+                    "name": "Adobe RGB",
+                    "Default": "ECO"
+                  },
+                  {
+                    "name": "DCI-P3",
+                    "Default": "ECO"
+                  },
+                  {
+                    "name": "Custom",
+                    "Default": "ECO"
+                  },
+                  {
+                    "name": "ECO",
+                    "Default": "ECO"
+                  }
+                ]
+              },
+              {
+                "name": "Brightness",
+                "Default": "預設值請參考Picture mode頁次",
+                "Range": "0-100"
+              },
+              {
+                "name": "Contrast",
+                "Default": "預設值請參考Picture mode頁次",
+                "Range": "0-100"
+              },
+              {
+                "name": "6 axis Color",
+                "children": [
+                  {
+                    "name": "R-Saturation",
+                    "Default": "預設值請參考Picture mode頁次",
+                    "Range": "0-100"
+                  },
+                  {
+                    "name": "R-Hue",
+                    "Default": "預設值請參考Picture mode頁次",
+                    "Range": "0-100"
+                  },
+                  {
+                    "name": "G-Saturation",
+                    "Default": "預設值請參考Picture mode頁次",
+                    "Range": "0-100"
+                  },
+                  {
+                    "name": "G-Hue",
+                    "Default": "預設值請參考Picture mode頁次",
+                    "Range": "0-100"
+                  },
+                  {
+                    "name": "B-Saturation",
+                    "Default": "預設值請參考Picture mode頁次",
+                    "Range": "0-100"
+                  },
+                  {
+                    "name": "B-Hue",
+                    "Default": "預設值請參考Picture mode頁次",
+                    "Range": "0-100"
+                  },
+                  {
+                    "name": "C-Saturation",
+                    "Default": "預設值請參考Picture mode頁次",
+                    "Range": "0-100"
+                  },
+                  {
+                    "name": "C-Hue",
+                    "Default": "預設值請參考Picture mode頁次",
+                    "Range": "0-100"
+                  },
+                  {
+                    "name": "M-Saturation",
+                    "Default": "預設值請參考Picture mode頁次",
+                    "Range": "0-100"
+                  },
+                  {
+                    "name": "M-Hue",
+                    "Default": "預設值請參考Picture mode頁次",
+                    "Range": "0-100"
+                  },
+                  {
+                    "name": "Y-Saturation",
+                    "Default": "預設值請參考Picture mode頁次",
+                    "Range": "0-100"
+                  },
+                  {
+                    "name": "Y-Hue",
+                    "Default": "預設值請參考Picture mode頁次",
+                    "Range": "0-100"
+                  }
+                ]
+              },
+              {
+                "name": "Color Vibrance",
+                "Default": "預設值請參考Picture mode頁次",
+                "Range": "0-20"
+              },
+              {
+                "name": "Sharpness",
+                "Default": "預設值請參考Picture mode頁次",
+                "Range": "0-10"
+              },
+              {
+                "name": "Gamma",
+                "children": [
+                  {
+                    "name": "OFF",
+                    "Default": "預設值請參考Picture mode頁次"
+                  },
+                  {
+                    "name": "1.8",
+                    "Default": "預設值請參考Picture mode頁次"
+                  },
+                  {
+                    "name": "2.0",
+                    "Default": "預設值請參考Picture mode頁次"
+                  },
+                  {
+                    "name": "2.2",
+                    "Default": "預設值請參考Picture mode頁次"
+                  },
+                  {
+                    "name": "2.4",
+                    "Default": "預設值請參考Picture mode頁次"
+                  },
+                  {
+                    "name": "2.6",
+                    "Default": "預設值請參考Picture mode頁次"
+                  }
+                ]
+              },
+              {
+                "name": "Color Temperature",
+                "children": [
+                  {
+                    "name": "Cool",
+                    "Default": "預設值請參考Picture mode頁次"
+                  },
+                  {
+                    "name": "Natural",
+                    "Default": "預設值請參考Picture mode頁次"
+                  },
+                  {
+                    "name": "Normal",
+                    "Default": "預設值請參考Picture mode頁次"
+                  },
+                  {
+                    "name": "Warm",
+                    "Default": "預設值請參考Picture mode頁次"
+                  },
+                  {
+                    "name": "User Define",
+                    "children": [
+                      {
+                        "name": "R",
+                        "Default": "預設值請參考Picture mode頁次",
+                        "Range": "0-100"
+                      },
+                      {
+                        "name": "G",
+                        "Default": "預設值請參考Picture mode頁次",
+                        "Range": "0-100"
+                      },
+                      {
+                        "name": "B",
+                        "Default": "預設值請參考Picture mode頁次",
+                        "Range": "0-100"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Reset Picture",
+                "children": [
+                  {
+                    "name": "Yes",
+                    "Default": "No"
+                  },
+                  {
+                    "name": "No",
+                    "Default": "No"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Input",
+            "children": [
+              {
+                "name": "Input Source",
+                "children": [
+                  {
+                    "name": "HDMI 1 (eARC)",
+                    "Default": "HDMI 1(eARC)"
+                  },
+                  {
+                    "name": "HDMI 2",
+                    "Default": "HDMI 1(eARC)"
+                  },
+                  {
+                    "name": "DP",
+                    "Default": "HDMI 1(eARC)"
+                  },
+                  {
+                    "name": "Type-C",
+                    "Default": "HDMI 1(eARC)"
+                  }
+                ]
+              },
+              {
+                "name": "RGB Range",
+                "children": [
+                  {
+                    "name": "Auto detect",
+                    "Default": "Auto detect"
+                  },
+                  {
+                    "name": "RGB (0 ~ 255)",
+                    "Default": "Auto detect"
+                  },
+                  {
+                    "name": "RGB (16 ~ 235)",
+                    "Default": "Auto detect"
+                  }
+                ]
+              },
+              {
+                "name": "Apply Picture Mode",
+                "children": [
+                  {
+                    "name": "All Input",
+                    "Default": "All Input"
+                  },
+                  {
+                    "name": "Current Input",
+                    "Default": "All Input"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "PIP/PBP",
+            "children": [
+              {
+                "name": "Mode",
+                "children": [
+                  {
+                    "name": "OFF",
+                    "Default": "OFF"
+                  },
+                  {
+                    "name": "PIP",
+                    "Default": "OFF"
+                  },
+                  {
+                    "name": "PBP",
+                    "Default": "OFF"
+                  }
+                ]
+              },
+              {
+                "name": "Source",
+                "children": [
+                  {
+                    "name": "HDMI 1(eARC)",
+                    "Default": "HDMI1(eARC)"
+                  },
+                  {
+                    "name": "HDMI 2",
+                    "Default": "HDMI1(eARC)"
+                  },
+                  {
+                    "name": "DP",
+                    "Default": "HDMI1(eARC)"
+                  },
+                  {
+                    "name": "Type-C",
+                    "Default": "HDMI1(eARC)"
+                  }
+                ]
+              },
+              {
+                "name": "Display Switch"
+              },
+              {
+                "name": "Audio Switch",
+                "children": [
+                  {
+                    "name": "Main/Left",
+                    "Default": "Main"
+                  },
+                  {
+                    "name": "Sub/Right",
+                    "Default": "Main"
+                  }
+                ]
+              },
+              {
+                "name": "PIP Size",
+                "children": [
+                  {
+                    "name": "Small",
+                    "Default": "Large"
+                  },
+                  {
+                    "name": "Medium",
+                    "Default": "Large"
+                  },
+                  {
+                    "name": "Large",
+                    "Default": "Large"
+                  }
+                ]
+              },
+              {
+                "name": "PIP Location",
+                "children": [
+                  {
+                    "name": "Left Top",
+                    "Default": "Left Top"
+                  },
+                  {
+                    "name": "Right Top",
+                    "Default": "Left Top"
+                  },
+                  {
+                    "name": "Left Bottom",
+                    "Default": "Left Top"
+                  },
+                  {
+                    "name": "Right Bottom",
+                    "Default": "Left Top"
+                  }
+                ]
+              },
+              {
+                "name": "PBP Mode",
+                "children": [
+                  {
+                    "name": "Full",
+                    "Default": "Aspect"
+                  },
+                  {
+                    "name": "Aspect",
+                    "Default": "Aspect"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "AI Assistant(Main Menu)",
+        "children": [
+          {
+            "name": "Light Sensing",
+            "children": [
+              {
+                "name": "ON",
+                "Default": "OFF"
+              },
+              {
+                "name": "OFF",
+                "Default": "OFF"
+              }
+            ]
+          },
+          {
+            "name": "Screen Privacy",
+            "children": [
+              {
+                "name": "ON",
+                "Default": "ON"
+              },
+              {
+                "name": "OFF",
+                "Default": "ON"
+              }
+            ]
+          },
+          {
+            "name": "EyeCare Timer",
+            "children": [
+              {
+                "name": "ON",
+                "Default": "OFF"
+              },
+              {
+                "name": "OFF",
+                "Default": "OFF"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Game Assist(Main Menu)",
+        "children": [
+          {
+            "name": "Game Timer",
+            "children": [
+              {
+                "name": "OFF",
+                "Default": "OFF"
+              },
+              {
+                "name": "Count Up",
+                "Default": "OFF"
+              },
+              {
+                "name": "Count Down",
+                "children": [
+                  {
+                    "name": "05m00s ok",
+                    "Default": "OFF"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Refresh Rate",
+            "children": [
+              {
+                "name": "ON",
+                "Default": "OFF"
+              },
+              {
+                "name": "OFF",
+                "Default": "OFF"
+              }
+            ]
+          },
+          {
+            "name": "Info Location",
+            "children": [
+              {
+                "name": "Horizontal 左、右",
+                "Default": "H右, V上"
+              },
+              {
+                "name": "Vertical 上、中、下",
+                "Default": "H右, V上"
+              }
+            ]
+          },
+          {
+            "name": "Crosshair",
+            "children": [
+              {
+                "name": "OFF",
+                "Default": "OFF"
+              },
+              {
+                "name": "Style 1 (綠色十字)",
+                "Default": "OFF"
+              },
+              {
+                "name": "Style 2 (綠色圓形)",
+                "Default": "OFF"
+              },
+              {
+                "name": "Style 3  (綠色三角)",
+                "Default": "OFF"
+              },
+              {
+                "name": "Style 4  (綠色小十字)",
+                "Default": "OFF"
+              },
+              {
+                "name": "Offset",
+                "Default": "OFF"
+              },
+              {
+                "name": "Offset Reset",
+                "Default": "OFF"
+              },
+              {
+                "name": "Color Adapt",
+                "children": [
+                  {
+                    "name": "ON",
+                    "Default": "ON"
+                  },
+                  {
+                    "name": "OFF",
+                    "Default": "ON"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Tactical Switch",
+            "children": [
+              {
+                "name": "Display Preset",
+                "children": [
+                  {
+                    "name": "24\"(default)",
+                    "children": [
+                      {
+                        "name": "2560x1440"
+                      },
+                      {
+                        "name": "1920x1080(default)"
+                      },
+                      {
+                        "name": "1280x960"
+                      },
+                      {
+                        "name": "1024x768"
+                      },
+                      {
+                        "name": "1280x1024"
+                      }
+                    ]
+                  },
+                  {
+                    "name": "27\"",
+                    "children": [
+                      {
+                        "name": "2560x1440"
+                      },
+                      {
+                        "name": "1920x1080(default)"
+                      },
+                      {
+                        "name": "1280x960"
+                      },
+                      {
+                        "name": "1024x768"
+                      },
+                      {
+                        "name": "1280x1024"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "name": "Position",
+                "children": [
+                  {
+                    "name": "Top",
+                    "Default": "Bottom"
+                  },
+                  {
+                    "name": "Center",
+                    "Default": "Bottom"
+                  },
+                  {
+                    "name": "Bottom",
+                    "Default": "Bottom"
+                  }
+                ]
+              },
+              {
+                "name": "Notice",
+                "children": [
+                  {
+                    "name": "ON",
+                    "Default": "ON"
+                  },
+                  {
+                    "name": "OFF",
+                    "Default": "ON"
+                  }
+                ]
+              },
+              {
+                "name": "Key Binding",
+                "children": [
+                  {
+                    "name": "Tactical Switch",
+                    "Default": "Tactical\nSwitch"
+                  },
+                  {
+                    "name": "Eagle Eye",
+                    "Default": "Tactical\nSwitch"
+                  },
+                  {
+                    "name": "Night Vision",
+                    "Default": "Tactical\nSwitch"
+                  },
+                  {
+                    "name": "Crosshair",
+                    "Default": "Tactical\nSwitch"
+                  },
+                  {
+                    "name": "Game Timer",
+                    "Default": "Tactical\nSwitch"
+                  },
+                  {
+                    "name": "Pixel Clean",
+                    "Default": "Tactical\nSwitch"
+                  },
+                  {
+                    "name": "Mute",
+                    "Default": "Tactical\nSwitch"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Eagle Eye",
+            "children": [
+              {
+                "name": "Switch",
+                "children": [
+                  {
+                    "name": "ON",
+                    "Default": "OFF"
+                  },
+                  {
+                    "name": "OFF",
+                    "Default": "OFF"
+                  }
+                ]
+              },
+              {
+                "name": "Size",
+                "children": [
+                  {
+                    "name": "Large",
+                    "Default": "Small"
+                  },
+                  {
+                    "name": "Medium",
+                    "Default": "Small"
+                  },
+                  {
+                    "name": "Small",
+                    "Default": "Small"
+                  }
+                ]
+              },
+              {
+                "name": "Ratio",
+                "children": [
+                  {
+                    "name": "1.2X",
+                    "Default": "1.5X"
+                  },
+                  {
+                    "name": "1.5X",
+                    "Default": "1.5X"
+                  },
+                  {
+                    "name": "2.0X",
+                    "Default": "1.5X"
+                  },
+                  {
+                    "name": "3.0X",
+                    "Default": "1.5X"
+                  },
+                  {
+                    "name": "4.0X",
+                    "Default": "1.5X"
+                  }
+                ]
+              },
+              {
+                "name": "Position"
+              },
+              {
+                "name": "Frame color",
+                "children": [
+                  {
+                    "name": "OFF",
+                    "Default": "OFF"
+                  },
+                  {
+                    "name": "Red",
+                    "Default": "OFF"
+                  },
+                  {
+                    "name": "White",
+                    "Default": "OFF"
+                  }
+                ]
+              },
+              {
+                "name": "Reset"
+              }
+            ]
+          },
+          {
+            "name": "Night Vision",
+            "children": [
+              {
+                "name": "ON",
+                "Default": "OFF"
+              },
+              {
+                "name": "OFF",
+                "Default": "OFF"
+              }
+            ]
+          },
+          {
+            "name": "Tactical HUD",
+            "children": [
+              {
+                "name": "Switch",
+                "children": [
+                  {
+                    "name": "OFF",
+                    "Default": "OFF"
+                  },
+                  {
+                    "name": "Profile1",
+                    "Default": "OFF"
+                  },
+                  {
+                    "name": "Profile2",
+                    "Default": "OFF"
+                  },
+                  {
+                    "name": "Profile3",
+                    "Default": "OFF"
+                  },
+                  {
+                    "name": "Profile4",
+                    "Default": "OFF"
+                  },
+                  {
+                    "name": "Custom"
+                  }
+                ]
+              },
+              {
+                "name": "Capture Area"
+              },
+              {
+                "name": "Display Area"
+              },
+              {
+                "name": "Size",
+                "children": [
+                  {
+                    "name": "Small",
+                    "Default": "Medium"
+                  },
+                  {
+                    "name": "Medium",
+                    "Default": "Medium"
+                  },
+                  {
+                    "name": "Large",
+                    "Default": "Medium"
+                  }
+                ]
+              },
+              {
+                "name": "HUD Transparency",
+                "Default": "2",
+                "Range": "1~5"
+              },
+              {
+                "name": "Reset"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "AI OLED Care Pro(Main Menu)",
+        "children": [
+          {
+            "name": "Status",
+            "children": [
+              {
+                "name": "Usage Time",
+                "children": [
+                  {
+                    "name": "(Value) hours"
+                  }
+                ]
+              },
+              {
+                "name": "Pixel Clean",
+                "children": [
+                  {
+                    "name": "(Status)"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Pixel Clean",
+            "children": [
+              {
+                "name": "Start Cleaning"
+              },
+              {
+                "name": "Start Time Delay",
+                "children": [
+                  {
+                    "name": "0 min",
+                    "Default": "0 min"
+                  },
+                  {
+                    "name": "15 min",
+                    "Default": "0 min"
+                  },
+                  {
+                    "name": "30 min",
+                    "Default": "0 min"
+                  },
+                  {
+                    "name": "45 min",
+                    "Default": "0 min"
+                  },
+                  {
+                    "name": "60 min",
+                    "Default": "0 min"
+                  },
+                  {
+                    "name": "75 min",
+                    "Default": "0 min"
+                  },
+                  {
+                    "name": "90 min",
+                    "Default": "0 min"
+                  },
+                  {
+                    "name": "105 min",
+                    "Default": "0 min"
+                  },
+                  {
+                    "name": "120 min",
+                    "Default": "0 min"
+                  }
+                ],
+                "Default": "15",
+                "Range": "0-120"
+              }
+            ]
+          },
+          {
+            "name": "Static Control",
+            "children": [
+              {
+                "name": "ON",
+                "Default": "ON"
+              },
+              {
+                "name": "OFF",
+                "Default": "ON"
+              }
+            ]
+          },
+          {
+            "name": "Pixel Shift",
+            "children": [
+              {
+                "name": "ON",
+                "Default": "ON"
+              },
+              {
+                "name": "OFF",
+                "Default": "ON"
+              }
+            ]
+          },
+          {
+            "name": "APL Stabilize ",
+            "children": [
+              {
+                "name": "Low",
+                "Default": "Low"
+              },
+              {
+                "name": "Middle",
+                "Default": "Low"
+              },
+              {
+                "name": "High",
+                "Default": "Low"
+              }
+            ]
+          },
+          {
+            "name": "Sub-Logo Dim",
+            "children": [
+              {
+                "name": "ON",
+                "Default": "ON"
+              },
+              {
+                "name": "OFF",
+                "Default": "ON"
+              }
+            ]
+          },
+          {
+            "name": "Corner Dim",
+            "children": [
+              {
+                "name": "ON",
+                "Default": "ON"
+              },
+              {
+                "name": "OFF",
+                "Default": "ON"
+              }
+            ]
+          },
+          {
+            "name": "User Detection",
+            "children": [
+              {
+                "name": "ON",
+                "Default": "ON"
+              },
+              {
+                "name": "OFF",
+                "Default": "ON"
+              }
+            ]
+          },
+          {
+            "name": "Reset Settings",
+            "children": [
+              {
+                "name": "Yes",
+                "Default": "No"
+              },
+              {
+                "name": "No",
+                "Default": "No"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "System(Main Menu)",
+        "children": [
+          {
+            "name": "Langauge",
+            "children": [
+              {
+                "name": "English",
+                "Default": "English"
+              },
+              {
+                "name": "繁中",
+                "Default": "English"
+              },
+              {
+                "name": "简中",
+                "Default": "English"
+              },
+              {
+                "name": "Deutsch",
+                "Default": "English"
+              },
+              {
+                "name": "Русский",
+                "Default": "English"
+              },
+              {
+                "name": "Français",
+                "Default": "English"
+              },
+              {
+                "name": "日本語",
+                "Default": "English"
+              },
+              {
+                "name": "한국어",
+                "Default": "English"
+              },
+              {
+                "name": "Español",
+                "Default": "English"
+              },
+              {
+                "name": "Português",
+                "Default": "English"
+              },
+              {
+                "name": "العربية",
+                "Default": "English"
+              },
+              {
+                "name": "українська",
+                "Default": "English"
+              }
+            ]
+          },
+          {
+            "name": "Audio",
+            "children": [
+              {
+                "name": "Volume",
+                "Default": "30",
+                "Range": "0-100"
+              },
+              {
+                "name": "Mute",
+                "children": [
+                  {
+                    "name": "ON",
+                    "Default": "OFF"
+                  },
+                  {
+                    "name": "OFF",
+                    "Default": "OFF"
+                  }
+                ]
+              },
+              {
+                "name": "eARC",
+                "children": [
+                  {
+                    "name": "ON",
+                    "Default": "ON"
+                  },
+                  {
+                    "name": "OFF",
+                    "Default": "ON"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "OSD Settings",
+            "children": [
+              {
+                "name": "Display Time",
+                "children": [
+                  {
+                    "name": "5 Sec.",
+                    "Default": "15 Sec."
+                  },
+                  {
+                    "name": "10 Sec.",
+                    "Default": "15 Sec."
+                  },
+                  {
+                    "name": "15 Sec.",
+                    "Default": "15 Sec."
+                  },
+                  {
+                    "name": "20 Sec.",
+                    "Default": "15 Sec."
+                  },
+                  {
+                    "name": "25 Sec.",
+                    "Default": "15 Sec."
+                  },
+                  {
+                    "name": "30 Sec.",
+                    "Default": "15 Sec."
+                  }
+                ]
+              },
+              {
+                "name": "OSD Transparency",
+                "children": [
+                  {
+                    "name": "0.1",
+                    "Default": "0.2"
+                  },
+                  {
+                    "name": "0.2",
+                    "Default": "0.2"
+                  },
+                  {
+                    "name": "0.4",
+                    "Default": "0.2"
+                  },
+                  {
+                    "name": "0.6",
+                    "Default": "0.2"
+                  },
+                  {
+                    "name": "0.8",
+                    "Default": "0.2"
+                  }
+                ]
+              },
+              {
+                "name": "OSD Lock",
+                "children": [
+                  {
+                    "name": "ON"
+                  },
+                  {
+                    "name": "OFF"
+                  }
+                ]
+              },
+              {
+                "name": "OSD Pivot"
+              }
+            ]
+          },
+          {
+            "name": "Display Info",
+            "children": [
+              {
+                "name": "ON",
+                "Default": "OFF"
+              },
+              {
+                "name": "OFF",
+                "Default": "OFF"
+              }
+            ]
+          },
+          {
+            "name": "Input Auto Switch",
+            "children": [
+              {
+                "name": "ON",
+                "Default": "ON"
+              },
+              {
+                "name": "OFF",
+                "Default": "ON"
+              }
+            ]
+          },
+          {
+            "name": "Auto Power OFF",
+            "children": [
+              {
+                "name": "Every",
+                "children": [
+                  {
+                    "name": "OFF",
+                    "Default": "OFF"
+                  },
+                  {
+                    "name": "10min.",
+                    "Default": "OFF"
+                  },
+                  {
+                    "name": "20min.",
+                    "Default": "OFF"
+                  },
+                  {
+                    "name": "30min.",
+                    "Default": "OFF"
+                  }
+                ]
+              },
+              {
+                "name": "Once",
+                "children": [
+                  {
+                    "name": "OFF",
+                    "Default": "Once"
+                  },
+                  {
+                    "name": "10min.",
+                    "Default": "Once"
+                  },
+                  {
+                    "name": "20min.",
+                    "Default": "Once"
+                  },
+                  {
+                    "name": "30min.",
+                    "Default": "Once"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "name": "LED Indicator",
+            "children": [
+              {
+                "name": "Always ON",
+                "Default": "Always ON"
+              },
+              {
+                "name": "Always OFF",
+                "Default": "Always ON"
+              },
+              {
+                "name": "Standby ON",
+                "Default": "Always ON"
+              }
+            ],
+            "Default": "Always ON"
+          },
+          {
+            "name": "RGB LED",
+            "children": [
+              {
+                "name": "OFF",
+                "Default": "Mode 1"
+              },
+              {
+                "name": "Mode 1",
+                "Default": "Mode 1"
+              },
+              {
+                "name": "Mode 2",
+                "Default": "Mode 1"
+              },
+              {
+                "name": "Mode 3",
+                "Default": "Mode 1"
+              }
+            ]
+          },
+          {
+            "name": "Type-C Compatibility",
+            "children": [
+              {
+                "name": "ON",
+                "Default": "OFF"
+              },
+              {
+                "name": "OFF",
+                "Default": "OFF"
+              }
+            ]
+          },
+          {
+            "name": "HDMI Version",
+            "children": [
+              {
+                "name": "2.1",
+                "Default": "2.1"
+              },
+              {
+                "name": "2.0",
+                "Default": "2.1"
+              }
+            ]
+          },
+          {
+            "name": "HDMI CEC",
+            "children": [
+              {
+                "name": "ON",
+                "Default": "OFF"
+              },
+              {
+                "name": "OFF",
+                "Default": "OFF"
+              }
+            ]
+          },
+          {
+            "name": "DSC",
+            "children": [
+              {
+                "name": "Auto",
+                "Default": "Auto"
+              },
+              {
+                "name": "OFF",
+                "Default": "Auto"
+              }
+            ]
+          },
+          {
+            "name": "FW Update"
+          },
+          {
+            "name": "Reset to default"
+          }
+        ]
+      }
+    ],
+    "operation": [
+      "Down button"
+    ]
+  }
+]

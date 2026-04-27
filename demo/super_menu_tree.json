@@ -1,0 +1,768 @@
+{
+    "Turn Off": {},
+    "Main Menu": {
+        "Exit": {},
+        "Crosshair": {
+            "OFF": {},
+            "Default": "OFF",
+            "Style 1": {},
+            "Style 2": {},
+            "Style 3": {},
+            "Style 4": {}
+        },
+        "GameAssist": {
+            "GAME INFO": {
+                "Game Timer": {
+                    "OFF": {},
+                    "Default": "OFF",
+                    "Count Up": {},
+                    "Count Down": {}
+                },
+                "Refresh Rate": {
+                    "ON": {},
+                    "Default": "OFF",
+                    "OFF": {}
+                },
+                "Info Location": {
+                    "Default": "H右, V上",
+                    "Horizontal 左、右": {},
+                    "Vertical 上、中、下": {}
+                }
+            },
+            "Display Alignment": {
+                "ON": {},
+                "Default": "OFF",
+                "OFF": {}
+            }
+        },
+        "Settings": {
+            "Gaming": {
+                "Aim Stabilizer Sync": {
+                    "ON": {},
+                    "Default": "OFF",
+                    "OFF": {}
+                },
+                "Black Equalizer": {
+                    "Default": 10
+                },
+                "Super Resolution": {
+                    "Default": 0
+                },
+                "Display Mode": {
+                    "Full": {},
+                    "Default": "Full",
+                    "Aspect": {}
+                },
+                "Overdrive": {
+                    "OFF": {},
+                    "Default": {
+                        "Standard": "Balance",
+                        "Game": "Smart OD",
+                        "Movie": "Picture Quality",
+                        "Reader": "OFF",
+                        "sRGB": "Disable",
+                        "ECO": "OFF",
+                        "Custom": "Balance"
+                    },
+                    "Smart OD": {},
+                    "Picture quality": {},
+                    "Balance": {},
+                    "Speed": {}
+                },
+                "FreeSync Premium": {
+                    "Enable": {},
+                    "Default": "Enable",
+                    "Disable": {}
+                }
+            },
+            "Picture": {
+                "Standard": {
+                    "Brightness": {
+                        "Default": 80
+                    },
+                    "Contrast": {
+                        "Default": 50
+                    },
+                    "Color Vibrance": {
+                        "Default": 10
+                    },
+                    "Sharpness": {
+                        "Default": 5
+                    },
+                    "Gamma": {
+                        "OFF": {},
+                        "Gamma 1": {},
+                        "Gamma 2": {},
+                        "Gamma 3": {},
+                        "Gamma 4": {},
+                        "Gamma 5": {},
+                        "Default": 3
+                    },
+                    "Color Temperature": {
+                        "Cool": {},
+                        "Natural": {},
+                        "Normal": {},
+                        "Warm": {},
+                        "User Define": {
+                            "R": {},
+                            "G": {},
+                            "B": {}
+                        },
+                        "Default": "Normal"
+                    },
+                    "Low Blue Light": {
+                        "Default": 0
+                    },
+                    "DCR": {
+                        "ON": {},
+                        "OFF": {}
+                    },
+                    "Reset Picture": {
+                        "Yes": {},
+                        "No": {}
+                    },
+                    "Black Equalizer": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Black Equalizer",
+                        "Default": 10
+                    },
+                    "Aim Stabilizer Sync": {
+                        "ON": {},
+                        "OFF": {},
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Aim Stabilizer Sync",
+                        "Default": "OFF"
+                    },
+                    "Overdrive": {
+                        "OFF": {},
+                        "Smart OD": {},
+                        "Picture quality": {},
+                        "Balance": {},
+                        "Speed": {},
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Overdrive",
+                        "Default": "Balance"
+                    },
+                    "Super Resolution": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Super Resolution",
+                        "Default": 0
+                    }
+                },
+                "Default": "Standard",
+                "Game": {
+                    "Brightness": {
+                        "Default": 80
+                    },
+                    "Contrast": {
+                        "Default": 55
+                    },
+                    "Color Vibrance": {
+                        "Default": 11
+                    },
+                    "Sharpness": {
+                        "Default": 6
+                    },
+                    "Gamma": {
+                        "OFF": {},
+                        "Gamma 1": {},
+                        "Gamma 2": {},
+                        "Gamma 3": {},
+                        "Gamma 4": {},
+                        "Gamma 5": {},
+                        "Default": 1
+                    },
+                    "Color Temperature": {
+                        "Cool": {},
+                        "Natural": {},
+                        "Normal": {},
+                        "Warm": {},
+                        "User Define": {
+                            "R": {},
+                            "G": {},
+                            "B": {}
+                        },
+                        "Default": "Natural"
+                    },
+                    "Low Blue Light": {
+                        "Default": 0
+                    },
+                    "DCR": {
+                        "ON": {},
+                        "OFF": {}
+                    },
+                    "Reset Picture": {
+                        "Yes": {},
+                        "No": {}
+                    },
+                    "Black Equalizer": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Black Equalizer",
+                        "Default": 11
+                    },
+                    "Aim Stabilizer Sync": {
+                        "ON": {},
+                        "OFF": {},
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Aim Stabilizer Sync",
+                        "Default": "OFF"
+                    },
+                    "Overdrive": {
+                        "OFF": {},
+                        "Smart OD": {},
+                        "Picture quality": {},
+                        "Balance": {},
+                        "Speed": {},
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Overdrive",
+                        "Default": "Smart OD"
+                    },
+                    "Super Resolution": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Super Resolution",
+                        "Default": 2
+                    }
+                },
+                "Movie": {
+                    "Brightness": {
+                        "Default": 95
+                    },
+                    "Contrast": {
+                        "Default": 50
+                    },
+                    "Color Vibrance": {
+                        "Default": 10
+                    },
+                    "Sharpness": {
+                        "Default": 6
+                    },
+                    "Gamma": {
+                        "OFF": {},
+                        "Gamma 1": {},
+                        "Gamma 2": {},
+                        "Gamma 3": {},
+                        "Gamma 4": {},
+                        "Gamma 5": {},
+                        "Default": 4
+                    },
+                    "Color Temperature": {
+                        "Cool": {},
+                        "Natural": {},
+                        "Normal": {},
+                        "Warm": {},
+                        "User Define": {
+                            "R": {},
+                            "G": {},
+                            "B": {}
+                        },
+                        "Default": "Normal"
+                    },
+                    "Low Blue Light": {
+                        "Default": 0
+                    },
+                    "DCR": {
+                        "ON": {},
+                        "OFF": {}
+                    },
+                    "Reset Picture": {
+                        "Yes": {},
+                        "No": {}
+                    },
+                    "Black Equalizer": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Black Equalizer",
+                        "Default": 11
+                    },
+                    "Aim Stabilizer Sync": {
+                        "ON": {},
+                        "OFF": {},
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Aim Stabilizer Sync",
+                        "Default": "OFF"
+                    },
+                    "Overdrive": {
+                        "OFF": {},
+                        "Smart OD": {},
+                        "Picture quality": {},
+                        "Balance": {},
+                        "Speed": {},
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Overdrive",
+                        "Default": "Picture Quality"
+                    },
+                    "Super Resolution": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Super Resolution",
+                        "Default": 1
+                    }
+                },
+                "Reader": {
+                    "Brightness": {
+                        "Default": 60
+                    },
+                    "Contrast": {
+                        "Default": 45
+                    },
+                    "Color Vibrance": {
+                        "Default": 9
+                    },
+                    "Sharpness": {
+                        "Default": 6
+                    },
+                    "Gamma": {
+                        "OFF": {},
+                        "Gamma 1": {},
+                        "Gamma 2": {},
+                        "Gamma 3": {},
+                        "Gamma 4": {},
+                        "Gamma 5": {},
+                        "Default": 3
+                    },
+                    "Color Temperature": {
+                        "Cool": {},
+                        "Natural": {},
+                        "Normal": {},
+                        "Warm": {},
+                        "User Define": {
+                            "R": {},
+                            "G": {},
+                            "B": {}
+                        },
+                        "Default": "Normal"
+                    },
+                    "Low Blue Light": {
+                        "Default": 4
+                    },
+                    "DCR": {
+                        "ON": {},
+                        "OFF": {}
+                    },
+                    "Reset Picture": {
+                        "Yes": {},
+                        "No": {}
+                    },
+                    "Black Equalizer": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Black Equalizer",
+                        "Default": 10
+                    },
+                    "Aim Stabilizer Sync": {
+                        "ON": {},
+                        "OFF": {},
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Aim Stabilizer Sync",
+                        "Default": "OFF"
+                    },
+                    "Overdrive": {
+                        "OFF": {},
+                        "Smart OD": {},
+                        "Picture quality": {},
+                        "Balance": {},
+                        "Speed": {},
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Overdrive",
+                        "Default": "OFF"
+                    },
+                    "Super Resolution": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Super Resolution",
+                        "Default": 1
+                    }
+                },
+                "sRGB": {
+                    "Brightness": {
+                        "Default": "150±20nit"
+                    },
+                    "Contrast": {
+                        "Default": "Disable"
+                    },
+                    "Color Vibrance": {
+                        "Default": "Disable"
+                    },
+                    "Sharpness": {
+                        "Default": "Disable"
+                    },
+                    "Gamma": {
+                        "OFF": {},
+                        "Gamma 1": {},
+                        "Gamma 2": {},
+                        "Gamma 3": {},
+                        "Gamma 4": {},
+                        "Gamma 5": {},
+                        "Default": "Disable"
+                    },
+                    "Color Temperature": {
+                        "Cool": {},
+                        "Natural": {},
+                        "Normal": {},
+                        "Warm": {},
+                        "User Define": {
+                            "R": {},
+                            "G": {},
+                            "B": {}
+                        },
+                        "Default": "Disable"
+                    },
+                    "Low Blue Light": {
+                        "Default": "Disable"
+                    },
+                    "DCR": {
+                        "ON": {},
+                        "OFF": {}
+                    },
+                    "Reset Picture": {
+                        "Yes": {},
+                        "No": {}
+                    },
+                    "Black Equalizer": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Black Equalizer",
+                        "Default": "Disable"
+                    },
+                    "Aim Stabilizer Sync": {
+                        "ON": {},
+                        "OFF": {},
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Aim Stabilizer Sync",
+                        "Default": "Disable"
+                    },
+                    "Overdrive": {
+                        "OFF": {},
+                        "Smart OD": {},
+                        "Picture quality": {},
+                        "Balance": {},
+                        "Speed": {},
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Overdrive",
+                        "Default": "Disable"
+                    },
+                    "Super Resolution": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Super Resolution",
+                        "Default": "Disable"
+                    }
+                },
+                "Custom": {
+                    "Brightness": {
+                        "Default": 100
+                    },
+                    "Contrast": {
+                        "Default": 50
+                    },
+                    "Color Vibrance": {
+                        "Default": 10
+                    },
+                    "Sharpness": {
+                        "Default": 5
+                    },
+                    "Gamma": {
+                        "OFF": {},
+                        "Gamma 1": {},
+                        "Gamma 2": {},
+                        "Gamma 3": {},
+                        "Gamma 4": {},
+                        "Gamma 5": {},
+                        "Default": 3
+                    },
+                    "Color Temperature": {
+                        "Cool": {},
+                        "Natural": {},
+                        "Normal": {},
+                        "Warm": {},
+                        "User Define": {
+                            "R": {},
+                            "G": {},
+                            "B": {}
+                        },
+                        "Default": "Normal"
+                    },
+                    "Low Blue Light": {
+                        "Default": 0
+                    },
+                    "DCR": {
+                        "ON": {},
+                        "OFF": {}
+                    },
+                    "Reset Picture": {
+                        "Yes": {},
+                        "No": {}
+                    },
+                    "Black Equalizer": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Black Equalizer",
+                        "Default": 10
+                    },
+                    "Aim Stabilizer Sync": {
+                        "ON": {},
+                        "OFF": {},
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Aim Stabilizer Sync",
+                        "Default": "OFF"
+                    },
+                    "Overdrive": {
+                        "OFF": {},
+                        "Smart OD": {},
+                        "Picture quality": {},
+                        "Balance": {},
+                        "Speed": {},
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Overdrive",
+                        "Default": "Balance"
+                    },
+                    "Super Resolution": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Super Resolution",
+                        "Default": 0
+                    }
+                },
+                "ECO": {
+                    "Brightness": {
+                        "Default": 50
+                    },
+                    "Contrast": {
+                        "Default": 50
+                    },
+                    "Color Vibrance": {
+                        "Default": 10
+                    },
+                    "Sharpness": {
+                        "Default": 5
+                    },
+                    "Gamma": {
+                        "OFF": {},
+                        "Gamma 1": {},
+                        "Gamma 2": {},
+                        "Gamma 3": {},
+                        "Gamma 4": {},
+                        "Gamma 5": {},
+                        "Default": 3
+                    },
+                    "Color Temperature": {
+                        "Cool": {},
+                        "Natural": {},
+                        "Normal": {},
+                        "Warm": {},
+                        "User Define": {
+                            "R": {},
+                            "G": {},
+                            "B": {}
+                        },
+                        "Default": "Normal"
+                    },
+                    "Low Blue Light": {
+                        "Default": 0
+                    },
+                    "DCR": {
+                        "ON": {},
+                        "Default": "OFF",
+                        "OFF": {}
+                    },
+                    "Reset Picture": {
+                        "Yes": {},
+                        "Default": "No",
+                        "No": {}
+                    },
+                    "Black Equalizer": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Black Equalizer",
+                        "Default": 10
+                    },
+                    "Aim Stabilizer Sync": {
+                        "ON": {},
+                        "OFF": {},
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Aim Stabilizer Sync",
+                        "Default": "OFF"
+                    },
+                    "Overdrive": {
+                        "OFF": {},
+                        "Smart OD": {},
+                        "Picture quality": {},
+                        "Balance": {},
+                        "Speed": {},
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Overdrive",
+                        "Default": "OFF"
+                    },
+                    "Super Resolution": {
+                        "__Is_External_Link__": true,
+                        "__Source_Path__": "Gaming -> Super Resolution",
+                        "Default": 0
+                    }
+                }
+            },
+            "Display": {
+                "Input": {
+                    "HDMI 1": {},
+                    "Default": "DisplayPort",
+                    "HDMI 2": {},
+                    "DisplayPort": {}
+                },
+                "Overclock": {
+                    "ON": {},
+                    "Default": "OFF",
+                    "OFF": {}
+                },
+                "RGB Range": {
+                    "Auto detect": {},
+                    "Default": "Auto detect",
+                    "RGB (0 ~ 255)": {},
+                    "RGB (16 ~ 235)": {}
+                },
+                "Overscan": {
+                    "ON": {},
+                    "Default": "OFF",
+                    "OFF": {}
+                }
+            },
+            "System": {
+                "Audio": {
+                    "Volume": {
+                        "Default": 50
+                    },
+                    "Mute": {
+                        "ON": {},
+                        "Default": "OFF",
+                        "OFF": {}
+                    }
+                },
+                "OSD Settings": {
+                    "Display Time": {
+                        "5 Sec.": {},
+                        "Default": "15 Sec.",
+                        "10 Sec.": {},
+                        "15 Sec.": {},
+                        "20 Sec.": {},
+                        "25 Sec.": {},
+                        "30 Sec.": {}
+                    },
+                    "OSD Transparency": {
+                        "0": {},
+                        "Default": 0,
+                        "0.2": {},
+                        "0.4": {},
+                        "0.6": {},
+                        "0.8": {}
+                    },
+                    "OSD Lock": {}
+                },
+                "Quick Switch": {
+                    "Up": {
+                        "Default": "Black Equalizer",
+                        "Aim Stabilizer Sync": {},
+                        "Black Equalizer": {},
+                        "Crosshair": {},
+                        "Low Blue Light": {},
+                        "Volume": {},
+                        "Input": {},
+                        "Contrast": {},
+                        "Brightness": {},
+                        "Picture Mode": {}
+                    },
+                    "Down": {
+                        "Default": "Picture Mode",
+                        "Aim Stabilizer Sync": {},
+                        "Black Equalizer": {},
+                        "Crosshair": {},
+                        "Low Blue Light": {},
+                        "Volume": {},
+                        "Input": {},
+                        "Contrast": {},
+                        "Brightness": {},
+                        "Picture Mode": {}
+                    },
+                    "Right": {
+                        "Default": "Input",
+                        "Aim Stabilizer Sync": {},
+                        "Black Equalizer": {},
+                        "Crosshair": {},
+                        "Low Blue Light": {},
+                        "Volume": {},
+                        "Input": {},
+                        "Contrast": {},
+                        "Brightness": {},
+                        "Picture Mode": {}
+                    },
+                    "Left": {
+                        "Default": "Crosshair",
+                        "Aim Stabilizer Sync": {},
+                        "Black Equalizer": {},
+                        "Crosshair": {},
+                        "Low Blue Light": {},
+                        "Volume": {},
+                        "Input": {},
+                        "Contrast": {},
+                        "Brightness": {},
+                        "Picture Mode": {}
+                    }
+                },
+                "Other Settings": {
+                    "Resolution Notice": {
+                        "ON": {},
+                        "Default": "OFF",
+                        "OFF": {}
+                    },
+                    "Input Auto Switch": {
+                        "ON": {},
+                        "Default": "ON",
+                        "OFF": {}
+                    },
+                    "Auto Power OFF": {
+                        "OFF": {},
+                        "Default": "OFF",
+                        "10min.": {},
+                        "20min.": {},
+                        "30min.": {}
+                    },
+                    "LED Indicator": {
+                        "Always ON": {},
+                        "Default": "Always ON",
+                        "Always OFF": {},
+                        "Standby ON": {}
+                    },
+                    "HDMI-CEC": {
+                        "ON": {},
+                        "Default": "OFF",
+                        "OFF": {}
+                    }
+                }
+            },
+            "Langauge": {
+                "Default": "English",
+                "English": {},
+                "繁中": {},
+                "简中": {},
+                "Deutsch": {},
+                "Русский": {},
+                "Français": {},
+                "日本語": {},
+                "한국어": {},
+                "Español": {},
+                "Português": {},
+                "العربية": {},
+                "українська": {}
+            },
+            "Reset all": {}
+        },
+        "Turn off": {}
+    },
+    "Crosshair": {
+        "Default": "Off"
+    },
+    "Input": {
+        "HDMI 1": {},
+        "HDMI 2": {},
+        "DisplayPort": {}
+    },
+    "Black Equalizer": {},
+    "Picture Mode": {
+        "Standard": {},
+        "Default": "Standard",
+        "Game": {},
+        "Movie": {},
+        "Reader": {},
+        "sRGB": {},
+        "Custom": {},
+        "ECO": {}
+    }
+}

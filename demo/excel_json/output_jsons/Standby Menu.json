@@ -1,0 +1,92 @@
+[
+  {
+    "name": "Input",
+    "children": [
+      {
+        "name": "HDMI 1 (eARC)",
+        "children": [],
+        "Default": "No",
+        "Range": "DP"
+      },
+      {
+        "name": "HDMI 2",
+        "children": [],
+        "Default": "No",
+        "Range": "DP"
+      },
+      {
+        "name": "DP",
+        "children": [],
+        "Default": "No",
+        "Range": "DP"
+      },
+      {
+        "name": "Type-C",
+        "children": [],
+        "Default": "No",
+        "Range": "DP"
+      }
+    ]
+  },
+  {
+    "name": "Other",
+    "children": [
+      {
+        "name": "HDMI Version",
+        "children": [
+          {
+            "name": "2.1",
+            "children": [],
+            "Default": "No",
+            "Range": "2.1"
+          },
+          {
+            "name": "2.0",
+            "children": [],
+            "Default": "No",
+            "Range": "2.1"
+          }
+        ]
+      },
+      {
+        "name": "Type-C Compatibility",
+        "children": [
+          {
+            "name": "ON",
+            "children": [],
+            "Default": "No",
+            "Range": "OFF"
+          },
+          {
+            "name": "OFF",
+            "children": [],
+            "Default": "No",
+            "Range": "OFF"
+          }
+        ]
+      },
+      {
+        "name": "DSC",
+        "children": [
+          {
+            "name": "Auto",
+            "children": [],
+            "Default": "No",
+            "Range": "Auto"
+          },
+          {
+            "name": "OFF",
+            "children": [],
+            "Default": "No",
+            "Range": "Auto"
+          }
+        ]
+      },
+      {
+        "name": "Reset to default",
+        "children": [],
+        "Default": "No"
+      }
+    ]
+  }
+]

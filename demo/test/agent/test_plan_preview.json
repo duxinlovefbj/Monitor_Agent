@@ -1,0 +1,231 @@
+{
+  "test_name": "Color Gamut Verification SDR and HDR",
+  "steps": [
+    {
+      "id": 1,
+      "action": "wait_human",
+      "params": {
+        "instruction": "Position the CA410 probe at the center of the screen. Avoid pressing the probe against the panel."
+      },
+      "description": "Wait for operator to position CA410 probe at screen center."
+    },
+    {
+      "id": 2,
+      "action": "navigate_osd",
+      "params": {
+        "path": [
+          "Main Menu(Setting)",
+          "Settings(Main Menu)",
+          "Picture ( SDR 時)",
+          "Preset Mode",
+          "Standard"
+        ]
+      },
+      "description": "Set Picture Mode to Standard for SDR test."
+    },
+    {
+      "id": 3,
+      "action": "navigate_osd",
+      "params": {
+        "path": [
+          "Main Menu(Setting)",
+          "Settings(Main Menu)",
+          "Picture ( SDR 時)",
+          "Brightness"
+        ],
+        "value": 100
+      },
+      "description": "Set Brightness to 100%."
+    },
+    {
+      "id": 4,
+      "action": "show_test_pattern",
+      "params": {
+        "pattern": "R"
+      },
+      "description": "Display Red test pattern for SDR measurement."
+    },
+    {
+      "id": 5,
+      "action": "measure_ca410",
+      "params": {},
+      "description": "Trigger CA410 measurement for Red pattern and record xy coordinates."
+    },
+    {
+      "id": 6,
+      "action": "record_result",
+      "params": {
+        "label": "SDR_Red_xy"
+      },
+      "description": "Persist Red xy coordinates for SDR mode."
+    },
+    {
+      "id": 7,
+      "action": "show_test_pattern",
+      "params": {
+        "pattern": "G"
+      },
+      "description": "Display Green test pattern for SDR measurement."
+    },
+    {
+      "id": 8,
+      "action": "measure_ca410",
+      "params": {},
+      "description": "Trigger CA410 measurement for Green pattern and record xy coordinates."
+    },
+    {
+      "id": 9,
+      "action": "record_result",
+      "params": {
+        "label": "SDR_Green_xy"
+      },
+      "description": "Persist Green xy coordinates for SDR mode."
+    },
+    {
+      "id": 10,
+      "action": "show_test_pattern",
+      "params": {
+        "pattern": "B"
+      },
+      "description": "Display Blue test pattern for SDR measurement."
+    },
+    {
+      "id": 11,
+      "action": "measure_ca410",
+      "params": {},
+      "description": "Trigger CA410 measurement for Blue pattern and record xy coordinates."
+    },
+    {
+      "id": 12,
+      "action": "record_result",
+      "params": {
+        "label": "SDR_Blue_xy"
+      },
+      "description": "Persist Blue xy coordinates for SDR mode."
+    },
+    {
+      "id": 13,
+      "action": "calculate_color_gamut",
+      "params": {
+        "mode": "CIE1931",
+        "source": "SDR"
+      },
+      "description": "Calculate CIE1931 color gamut for SDR mode."
+    },
+    {
+      "id": 14,
+      "action": "calculate_color_gamut",
+      "params": {
+        "mode": "CIE1976",
+        "source": "SDR"
+      },
+      "description": "Calculate CIE1976 color gamut for SDR mode."
+    },
+    {
+      "id": 15,
+      "action": "enable_hdr",
+      "params": {
+        "state": true
+      },
+      "description": "Enable OS-level HDR mode."
+    },
+    {
+      "id": 16,
+      "action": "navigate_osd",
+      "params": {
+        "path": [
+          "Main Menu(Setting)",
+          "Settings(Main Menu)",
+          "Picture ( SDR 時)",
+          "Preset Mode",
+          "Standard"
+        ]
+      },
+      "description": "Ensure Picture Mode is set to Standard before HDR pattern display."
+    },
+    {
+      "id": 17,
+      "action": "show_test_pattern",
+      "params": {
+        "pattern": "R"
+      },
+      "description": "Display Red test pattern for HDR measurement."
+    },
+    {
+      "id": 18,
+      "action": "measure_ca410",
+      "params": {},
+      "description": "Trigger CA410 measurement for Red pattern in HDR mode."
+    },
+    {
+      "id": 19,
+      "action": "record_result",
+      "params": {
+        "label": "HDR_Red_xy"
+      },
+      "description": "Persist Red xy coordinates for HDR mode."
+    },
+    {
+      "id": 20,
+      "action": "show_test_pattern",
+      "params": {
+        "pattern": "G"
+      },
+      "description": "Display Green test pattern for HDR measurement."
+    },
+    {
+      "id": 21,
+      "action": "measure_ca410",
+      "params": {},
+      "description": "Trigger CA410 measurement for Green pattern in HDR mode."
+    },
+    {
+      "id": 22,
+      "action": "record_result",
+      "params": {
+        "label": "HDR_Green_xy"
+      },
+      "description": "Persist Green xy coordinates for HDR mode."
+    },
+    {
+      "id": 23,
+      "action": "show_test_pattern",
+      "params": {
+        "pattern": "B"
+      },
+      "description": "Display Blue test pattern for HDR measurement."
+    },
+    {
+      "id": 24,
+      "action": "measure_ca410",
+      "params": {},
+      "description": "Trigger CA410 measurement for Blue pattern in HDR mode."
+    },
+    {
+      "id": 25,
+      "action": "record_result",
+      "params": {
+        "label": "HDR_Blue_xy"
+      },
+      "description": "Persist Blue xy coordinates for HDR mode."
+    },
+    {
+      "id": 26,
+      "action": "calculate_color_gamut",
+      "params": {
+        "mode": "CIE1931",
+        "source": "HDR"
+      },
+      "description": "Calculate CIE1931 color gamut for HDR mode."
+    },
+    {
+      "id": 27,
+      "action": "calculate_color_gamut",
+      "params": {
+        "mode": "CIE1976",
+        "source": "HDR"
+      },
+      "description": "Calculate CIE1976 color gamut for HDR mode."
+    }
+  ]
+}

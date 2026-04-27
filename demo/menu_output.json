@@ -1,0 +1,149 @@
+{
+    "Gaming": {
+        "Aim Stabilizer Sync": {
+            "ON": {},
+            "OFF": {}
+        },
+        "Black Equalizer": {},
+        "Super Resolution": {},
+        "Display Mode": {
+            "Full": {},
+            "Aspect": {}
+        },
+        "Overdrive": {
+            "OFF": {},
+            "Smart OD": {},
+            "Picture quality": {},
+            "Balance": {},
+            "Speed": {}
+        },
+        "FreeSync Premium": {
+            "Enable": {},
+            "Disable": {}
+        }
+    },
+    "Picture": {
+        "Standard": {},
+        "Game": {},
+        "Movie": {},
+        "Reader": {},
+        "sRGB": {},
+        "Custom": {},
+        "ECO": {
+            "Brightness": {},
+            "Contrast": {},
+            "Color Vibrance": {},
+            "Sharpness": {},
+            "Gamma": {
+                "OFF": {},
+                "Gamma 1": {},
+                "Gamma 2": {},
+                "Gamma 3": {},
+                "Gamma 4": {},
+                "Gamma 5": {}
+            },
+            "Color Temperature": {
+                "Cool": {},
+                "Natural": {},
+                "Normal": {},
+                "Warm": {},
+                "User Define": {
+                    "R": {},
+                    "G": {},
+                    "B": {}
+                }
+            },
+            "Low Blue Light": {},
+            "DCR": {
+                "ON": {},
+                "OFF": {}
+            },
+            "Reset Picture": {
+                "Yes": {},
+                "No": {}
+            }
+        }
+    },
+    "Display": {
+        "Input": {
+            "HDMI 1": {},
+            "HDMI 2": {},
+            "DisplayPort": {}
+        },
+        "Overclock": {
+            "ON": {},
+            "OFF": {}
+        },
+        "RGB Range": {
+            "Auto detect": {},
+            "RGB (0 ~ 255)": {},
+            "RGB (16 ~ 235)": {}
+        },
+        "Overscan": {
+            "ON": {},
+            "OFF": {}
+        }
+    },
+    "System": {
+        "Audio": {
+            "Volume": {},
+            "Mute": {
+                "ON": {},
+                "OFF": {}
+            }
+        },
+        "OSD Settings": {
+            "Display Time": {
+                "5 Sec.": {},
+                "10 Sec.": {},
+                "15 Sec.": {},
+                "20 Sec.": {},
+                "25 Sec.": {},
+                "30 Sec.": {}
+            },
+            "OSD Transparency": {
+                "0": {},
+                "0.2": {},
+                "0.4": {},
+                "0.6": {},
+                "0.8": {}
+            },
+            "OSD Lock": {}
+        },
+        "Quick Switch": {
+            "Up": {},
+            "Down": {},
+            "Right": {},
+            "Left": {}
+        },
+        "Other Settings": {
+            "Resolution Notice": {
+                "ON": {},
+                "OFF": {}
+            },
+            "Input Auto Switch": {
+                "ON": {},
+                "OFF": {}
+            },
+            "Auto Power OFF": {
+                "OFF": {},
+                "10min.": {},
+                "20min.": {},
+                "30min.": {}
+            },
+            "LED Indicator": {
+                "Always ON": {},
+                "Always OFF": {},
+                "Standby ON": {}
+            },
+            "HDMI-CEC": {
+                "ON": {},
+                "OFF": {}
+            }
+        }
+    },
+    "Langauge": {
+        "English\n繁中\n简中\nDeutsch\nРусский\nFrançais\n日本語\n한국어\nEspañol\nPortuguês\nالعربية\nукраїнська": {}
+    },
+    "Reset all": {}
+}

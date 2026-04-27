@@ -1,0 +1,161 @@
+{
+  "SDR mode": {
+    "Standard": {
+      "Brightness": 85,
+      "Contrast": 50,
+      "Sharpness": 5,
+      "Black Equalizer 2.0": 0,
+      "Super Resolution": 0,
+      "Color Temperature": "Normal",
+      "Color Vibrance (HUE)": 10,
+      "Gamma": 2.2,
+      "APL Stabilize": "Low"
+    },
+    "FPS": {
+      "Brightness": 80,
+      "Contrast": 55,
+      "Sharpness": 7,
+      "Black Equalizer 2.0": 2,
+      "Super Resolution": 0,
+      "Color Temperature": "Natural",
+      "Color Vibrance (HUE)": 10,
+      "Gamma": 2,
+      "APL Stabilize": "Middle"
+    },
+    "MOBA": {
+      "Brightness": 75,
+      "Contrast": 55,
+      "Sharpness": 6,
+      "Black Equalizer 2.0": 0,
+      "Super Resolution": 0,
+      "Color Temperature": "Cool",
+      "Color Vibrance (HUE)": 10,
+      "Gamma": 1.8,
+      "APL Stabilize": "Middle"
+    },
+    "RPG": {
+      "Brightness": 90,
+      "Contrast": 55,
+      "Sharpness": 6,
+      "Black Equalizer 2.0": 0,
+      "Super Resolution": 2,
+      "Color Temperature": "Normal",
+      "Color Vibrance (HUE)": 10,
+      "Gamma": 2,
+      "APL Stabilize": "Middle"
+    },
+    "Racing": {
+      "Brightness": 90,
+      "Contrast": 56,
+      "Sharpness": 5,
+      "Black Equalizer 2.0": 0,
+      "Super Resolution": 0,
+      "Color Temperature": "Normal",
+      "Color Vibrance (HUE)": 14,
+      "Gamma": 2,
+      "APL Stabilize": "Middle"
+    },
+    "Movie": {
+      "Brightness": 80,
+      "Contrast": 50,
+      "Sharpness": 6,
+      "Black Equalizer 2.0": 0,
+      "Super Resolution": 2,
+      "Color Temperature": "Normal",
+      "Color Vibrance (HUE)": 10,
+      "Gamma": 2.2,
+      "APL Stabilize": "Middle"
+    },
+    "Reader": {
+      "Brightness": 50,
+      "Contrast": 50,
+      "Sharpness": 5,
+      "Black Equalizer 2.0": 0,
+      "Super Resolution": 0,
+      "Color Temperature": "Warm",
+      "Color Vibrance (HUE)": 10,
+      "Gamma": 2.2,
+      "APL Stabilize": "Middle"
+    },
+    "ECO": {
+      "Brightness": 70,
+      "Contrast": 50,
+      "Sharpness": 5,
+      "Black Equalizer 2.0": 0,
+      "Super Resolution": 0,
+      "Color Temperature": "Normal",
+      "Color Vibrance (HUE)": 10,
+      "Gamma": 2.2,
+      "APL Stabilize": "Low"
+    },
+    "sRGB": {
+      "Brightness": 50,
+      "Contrast": "Disable",
+      "Sharpness": "Disable",
+      "Black Equalizer 2.0": "Disable",
+      "Super Resolution": "Disable(Current Status)",
+      "Color Temperature": "Disable",
+      "Color Vibrance (HUE)": "Disable",
+      "Gamma": "Disable",
+      "APL Stabilize": "Low"
+    },
+    "Color Space (Adobe、DCI-P3)": {
+      "Brightness": 50,
+      "Contrast": "Disable",
+      "Sharpness": "Disable",
+      "Black Equalizer 2.0": "Disable",
+      "Super Resolution": "Disable(Current Status)",
+      "Color Temperature": "Disable",
+      "Color Vibrance (HUE)": "Disable",
+      "Gamma": "Disable",
+      "APL Stabilize": null
+    }
+  },
+  "HDR mode": {
+    "HDR": {
+      "Brightness": "Disable(100)",
+      "Contrast": "Disable(50)",
+      "Dark Enhance": "Disable",
+      "Color Enhance": "Disable",
+      "Light Enhance": "Disable",
+      "APL Stabilize": "Middle",
+      "Hyper Nits": "Disable(OFF)"
+    },
+    "HDR Game": {
+      "Brightness": 100,
+      "Contrast": 52,
+      "Dark Enhance": "On",
+      "Color Enhance": 0,
+      "Light Enhance": 0,
+      "APL Stabilize": "High",
+      "Hyper Nits": "Disable(OFF)"
+    },
+    "HDR Movie": {
+      "Brightness": 100,
+      "Contrast": 50,
+      "Dark Enhance": "On",
+      "Color Enhance": 1,
+      "Light Enhance": 0,
+      "APL Stabilize": "Middle",
+      "Hyper Nits": "Disable(OFF)"
+    },
+    "HDR Vivid": {
+      "Brightness": 100,
+      "Contrast": 52,
+      "Dark Enhance": "OFF",
+      "Color Enhance": 1,
+      "Light Enhance": 1,
+      "APL Stabilize": "High",
+      "Hyper Nits": "Disable(OFF)"
+    },
+    "HDR Peak1500": {
+      "Brightness": 100,
+      "Contrast": 53,
+      "Dark Enhance": "On",
+      "Color Enhance": 0,
+      "Light Enhance": 0,
+      "APL Stabilize": "High",
+      "Hyper Nits": "High"
+    }
+  }
+}
